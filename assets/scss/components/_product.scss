@@ -1,0 +1,74 @@
+.products {
+    // .product-heading{
+    //     background-position: center center;
+    //     background-repeat: no-repeat;
+    //     background-size: cover;
+    //     height: 15vh;
+    //     &.product-heading-type{
+    //         background-image: url(../../assets/images/products/product-type-bg.jpg);
+    //     }
+    //     &.product-heading-industry{
+    //         background-image: url(../../assets/images/products/product-industry-bg.jpg);
+    //     }
+    // }
+    .sub-heading{
+        background-color: $accent-color-dark;
+        padding: 1.3rem 2rem;
+        color: $secondary-color;
+        font-weight: 600;
+        @include scalableFont(18, 20);
+    }
+    .nav-pills{
+        .nav-link{
+            background-color: $tertiary-color;
+            margin-bottom: .15rem;
+            border-radius: 0;
+            padding: 1.15rem 2rem;
+            text-align: left;
+            font-weight: 500;
+            @include scalableFont(14, 18);
+            color: $accent-color-dark;
+            &.active{
+                font-weight: 700;
+                span{
+                    text-decoration: underline;
+                }
+            }
+        }
+    }
+    .tab-content{
+        .card{
+            text-align: center;
+            .card-img{
+                border: 6px solid $tertiary-color;
+                border-radius: 0;
+                width: 170px;
+                height: 122px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                box-shadow: -1rem 1rem 1rem rgba(0, 0 , 0, 0.15);
+                margin: 0 auto 1.5rem;
+            }
+            .card-body{
+                h3{
+                    color: $accent-color-dark;
+                    font-weight: 500;
+                    margin-bottom: 1.5rem;
+                    @include scalableFont(14, 18)
+                }
+            }
+            .card-footer{
+                .btn{
+                    background-color: $accent-color-dark;
+                    padding: .75rem 2rem;
+                    color: $secondary-color;
+                    border-radius: 0;
+                    font-weight: $semi-bold;
+                    box-shadow: -.5rem .5rem 1rem rgba(0, 0 , 0, 0.15);
+                    @include scalableFont(15,18)
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,886 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Details | Nirmal</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css" rel="stylesheet" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css" />
+    <link rel='stylesheet' media="all" type="text/css" href='assets/css/style.min.css'>
+</head>
+
+<body>
+    <!-- Header Start -->
+    <header class="pb-2 fixed-top">
+        <div class="social text-end position-relative d-md-none">
+            <div class="container-fluid pe-0">
+                <ul class="list-unstyled d-inline-flex mb-0">
+                    <li>
+                        <a href="#">
+                            <img class="img-fluid" src="assets/images/facebook.svg" alt="Facebook" />
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img class="img-fluid" src="assets/images/instagram.svg" alt="Instagram" />
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img class="img-fluid" src="assets/images/linkedin.svg" alt="Linkedin" />
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img class="img-fluid" src="assets/images/youtube.svg" alt="Youtube" />
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img class="img-fluid" src="assets/images/twitter.svg" alt="Twitter" />
+                        </a>
+                    </li>
+                    <li>
+                        <a href="download.html">
+                            <img class="img-fluid" src="assets/images/download.svg" alt="Download" />
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="container-fluid">
+            <div class="navbar py-0 position-relative align-items-start">
+                <div class="menu d-flex align-items-center w-75">
+                    <a class="navbar-brand py-0" href="#">
+                        <img class="img-fluid" src="assets/images/logo.png" alt="Nirmal" />
+                    </a>
+                    <button id="navbar-toggler" class="navbar-toggler d-inline-flex align-items-center">
+                        <img class="img-fluid me-1" src="assets/images/menu.svg" alt="" />
+                        <span>MENU</span>
+                    </button>
+                </div>
+                <ul
+                    class="collapsed-menubar list-unstyled row row-cols-lg-4 row-cols-xl-5 justify-content-between position-absolute mb-0">
+                    <li class="col text-center">
+                        <a class="text-decoration-none d-flex d-lg-block align-items-center" href="index.html">
+                            <img class="img-fluid mb-2" src="assets/images/menu-icon/menu-icon-01.png" alt="" />
+                            <p class="mb-0">Home</p>
+                        </a>
+                    </li>
+                    <li class="col text-center">
+                        <a class="text-decoration-none d-flex d-lg-block align-items-center" href="about.html">
+                            <img class="img-fluid mb-2" src="assets/images/menu-icon/menu-icon-02.png" alt="" />
+                            <p class="mb-0">Our Story</p>
+                        </a>
+                    </li>
+                    <li class="col text-center">
+                        <a class="text-decoration-none d-flex d-lg-block align-items-center"
+                            href="coming-soon.html">
+                            <img class="img-fluid mb-2" src="assets/images/menu-icon/menu-icon-03.png" alt="" />
+                            <p class="mb-0">Products</p>
+                        </a>
+                    </li>
+                    <li class="col text-center">
+                        <a class="text-decoration-none d-flex d-lg-block align-items-center" href="coming-soon.html">
+                            <img class="img-fluid mb-2" src="assets/images/menu-icon/menu-icon-04.png" alt="" />
+                            <p class="mb-0">Quality Assurance</p>
+                        </a>
+                    </li>
+                    <li class="col text-center">
+                        <a class="text-decoration-none d-flex d-lg-block align-items-center"
+                            href="coming-soon.html">
+                            <img class="img-fluid mb-2" src="assets/images/menu-icon/menu-icon-11.png" alt="" />
+                            <p class="mb-0">Trading</p>
+                        </a>
+                    </li>
+                    <li class="col text-center">
+                        <a class="text-decoration-none d-flex d-lg-block align-items-center"
+                            href="coming-soon.html">
+                            <img class="img-fluid mb-1" src="assets/images/menu-icon/menu-icon-06.png" alt="" />
+                            <p class="mb-0">Our Presence</p>
+                        </a>
+                    </li>
+                    <li class="col text-center">
+                        <a class="text-decoration-none d-flex d-lg-block align-items-center" href="coming-soon.html">
+                            <img class="img-fluid mb-2" src="assets/images/menu-icon/menu-icon-10.png" alt="" />
+                            <p class="mb-0">CSR</p>
+                        </a>
+                    </li>
+                    <li class="col text-center">
+                        <a class="text-decoration-none d-flex d-lg-block align-items-center" href="coming-soon.html">
+                            <img class="img-fluid mb-2" src="assets/images/menu-icon/menu-icon-07.png" alt="" />
+                            <p class="mb-0">Careers</p>
+                        </a>
+                    </li>
+                    <li class="col text-center">
+                        <a class="text-decoration-none d-flex d-lg-block align-items-center" href="coming-soon.html">
+                            <img class="img-fluid mb-2" src="assets/images/menu-icon/blog.png" alt="" />
+                            <p class="mb-0">Blog</p>
+                        </a>
+                    </li>
+                    <li class="col text-center">
+                        <a class="text-decoration-none d-flex d-lg-block align-items-center"
+                            href="contact.html">
+                            <img class="img-fluid mb-2" src="assets/images/menu-icon/menu-icon-08.png" alt="" />
+                            <p class="mb-0">Contact Us</p>
+                        </a>
+                    </li>
+                    <!-- <li class="col text-center">
+                <a class="text-decoration-none d-flex d-lg-block align-items-center" href="#">
+                    <img class="img-fluid mb-2" src="assets/images/menu-icon/menu-icon-05.png" alt="" />
+                    <p class="mb-0 mt-2">Our Infrastructure</p>
+                </a>
+            </li>
+            <li class="col text-center">
+                <a class="text-decoration-none d-flex d-lg-block align-items-center" href="retail.html">
+                    <img class="img-fluid mb-2" src="assets/images/menu-icon/menu-icon-09.png" alt="" />
+                    <p class="mb-0">Retail</p>
+                </a>
+            </li> -->
+                </ul>
+                <div>
+                    <div class="social text-end position-relative d-none d-md-block">
+                        <ul class="list-unstyled d-inline-flex mb-0">
+                            <li>
+                                <a href="#">
+                                    <img class="img-fluid" src="assets/images/facebook.svg" alt="Facebook" />
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img class="img-fluid" src="assets/images/instagram.svg" alt="Instagram" />
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img class="img-fluid" src="assets/images/linkedin.svg" alt="Linkedin" />
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img class="img-fluid" src="assets/images/youtube.svg" alt="Youtube" />
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img class="img-fluid" src="assets/images/twitter.svg" alt="Twitter" />
+                                </a>
+                            </li>
+                            <li>
+                                <a href="download.html">
+                                    <img class="img-fluid" src="assets/images/download.svg" alt="Download" />
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="group-logo mt-md-3 ms-auto">
+                        <img class="img-fluid w-100" src="assets/images/group-logo.jpg" alt="Group Logo" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- Header End -->
+    <!-- Banner Start -->
+    <section class="product-inner-banner">
+        <img class="img-fluid" src="assets/images/about-banner.jpg" alt="">
+    </section>
+    <!-- Banner End -->
+    <section class="sec-padd">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12">
+                    <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+                        <ol class="breadcrumb mb-3">
+                            <li class="breadcrumb-item text-uppercase">UNCOATED WIRES</li>
+                            <li class="breadcrumb-item text-uppercase">BLACK WIRES</li>
+                            <li class="breadcrumb-item active text-uppercase">Spring Steel Wire</li>
+                        </ol>
+                    </nav>
+                </div>
+                <div class="col-12">
+                    <div class="product-aboutp position-relative wow fadeIn" data-wow-duration="1s" data-wow-delay="0.3s">
+                        <img class="img-fluid w-100" src="assets/images/products/product-about.jpg" alt="">
+                        <div class="overlay position-absolute top-50 start-50 translate-middle w-100 p-4">
+                            <div class="row justify-content-center align-items-center">
+                                <div class="col-md-4">
+                                    <h1 class="text-uppercase wow fadeIn" data-wow-duration="1s" data-wow-delay="0.4s">Spring Steel Wire</h1>
+                                    <h3 class="mb-0 text-uppercase wow fadeIn" data-wow-duration="1s" data-wow-delay="0.5s">Rolling shutter spring wire, Mattress Spring Wire</h3>
+                                </div>
+                                <div class="col-md-8 col-xl-5 wow fadeIn" data-wow-duration="1s" data-wow-delay="0.6s">
+                                    <h3 class="mb-3 text-uppercase">Product Description :</h3>
+                                    <p>Our Spring Steel Wires are the epitome of strength, resilience, and reliability.
+                                        Crafted with precision and care, these wires are specifically designed for the
+                                        production of springs, catering to a wide range of applications. Known for their
+                                        exceptional mechanical properties and consistent performance</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="avalible-option">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12">
+                    <h2 class="heading-dark text-uppercase  mb-3 wow fadeIn" data-wow-duration="1s" data-wow-delay="0.1s">Stranded Options Available</h2>
+                    <p class="mb-5 wow fadeIn" data-wow-duration="1s" data-wow-delay="0.15s">Our Pre-Stressed Concrete Wire (Stranded) is offered in three sizes to meet your specific project
+                        requirements:</p>
+                    <ul class="list-unstyled mb-0">
+                        <li class="mb-5 wow fadeIn" data-wow-duration="1s" data-wow-delay="0.2s">
+                            <span>3 Ply:</span> Ideal for applications demanding increased load-bearing capacity and
+                            durability while maintaining flexibility for ease of use.
+                        </li>
+                        <li class="wow fadeIn" data-wow-duration="1s" data-wow-delay="0.3s">
+                            <span>7 Ply:</span> Designed for heavy-duty projects requiring maximum strength and superior
+                            load-bearing capabilities, ensuring structural integrity under the most demanding
+                            conditions.
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="product-specifications sec-padd">
+        <div class="container-fluid">
+            <div class="row justify-content-center align-items-center">
+                <div class="col-12">
+                    <h2 class="heading-dark text-uppercase wow fadeIn" data-wow-duration="1s" data-wow-delay="0.1s">product Specifications</h2>
+                </div>
+            </div>
+            <div class="row g-0 justify-content-center">
+                <div class="col-lg-3 wow fadeIn" data-wow-duration="1s" data-wow-delay="0.2s">
+                    <div class="card p-4 h-100 rounded-0 align-items-center justify-content-center text-center">
+                        <img class="card-img-top" src="assets/images/products/specifications-icon-01.png" alt="">
+                        <div class="card-body">
+                            <p class="mb-0"><strong>Relaxation(%) - ≤2.5</strong></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 wow fadeIn" data-wow-duration="1s" data-wow-delay="0.3s">
+                    <div class="card p-4 h-100 rounded-0 align-items-center justify-content-center text-center">
+                        <img class="card-img-top" src="assets/images/products/specifications-icon-01.png" alt="">
+                        <div class="card-body">
+                            <p class="mb-0"><strong>Elongation(%) - ≥3.5</strong></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 wow fadeIn" data-wow-duration="1s" data-wow-delay="0.4s">
+                    <div class="card p-4 h-100 rounded-0 align-items-center justify-content-center text-center">
+                        <img class="card-img-top" src="assets/images/products/specifications-icon-01.png" alt="">
+                        <div class="card-body">
+                            <p class="mb-0"><strong>Type of surface</strong></p>
+                            <p class="mb-0">Spiral ribbed Intended plain</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 wow fadeIn" data-wow-duration="1s" data-wow-delay="0.5s">
+                    <div class="card p-4 h-100 rounded-0 align-items-center justify-content-center text-center">
+                        <img class="card-img-top" src="assets/images/products/specifications-icon-01.png" alt="">
+                        <div class="card-body">
+                            <p class="mb-0"><strong>Diameter Range</strong></p>
+                            <p class="mb-0">Available form the range of 1.4 - 8mm, providing</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 wow fadeIn" data-wow-duration="1s" data-wow-delay="0.6s">
+                    <div class="card p-4 h-100 rounded-0 align-items-center justify-content-center text-center">
+                        <img class="card-img-top" src="assets/images/products/specifications-icon-01.png" alt="">
+                        <div class="card-body">
+                            <p class="mb-0"><strong>Elongation(%) - ≥3.5</strong></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 wow fadeIn" data-wow-duration="1s" data-wow-delay="0.7s">
+                    <div class="card p-4 h-100 rounded-0 align-items-center justify-content-center text-center">
+                        <img class="card-img-top" src="assets/images/products/specifications-icon-01.png" alt="">
+                        <div class="card-body">
+                            <p class="mb-0"><strong>Type of surface</strong></p>
+                            <p class="mb-0">Spiral ribbed Intended plain</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 wow fadeIn" data-wow-duration="1s" data-wow-delay="0.8s">
+                    <div class="card p-4 h-100 rounded-0 align-items-center justify-content-center text-center">
+                        <img class="card-img-top" src="assets/images/products/specifications-icon-01.png" alt="">
+                        <div class="card-body">
+                            <p class="mb-0"><strong>Diameter Range</strong></p>
+                            <p class="mb-0">Available form the range of 1.4 - 8mm, providing</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 wow fadeIn" data-wow-duration="1s" data-wow-delay="0.9s">
+                    <div class="card p-4 h-100 rounded-0 align-items-center justify-content-center text-center">
+                        <img class="card-img-top" src="assets/images/products/specifications-icon-01.png" alt="">
+                        <div class="card-body">
+                            <p class="mb-0"><strong>Diameter Range</strong></p>
+                            <p class="mb-0">Available form the range of 1.4 - 8mm, providing</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="container-fluid">
+            <div class="applications p-lg-5 p-4">
+                <div class="row justify-content-center align-items-center">
+                    <div class="col-12 text-center mb-4">
+                        <h2 class="heading-dark text-uppercase wow fadeIn" data-wow-duration="1s" data-wow-delay="0.1s">Applications</h2>
+                        <p class=" wow fadeIn" data-wow-duration="1s" data-wow-delay="0.15s">Our Mild Steel Wire finds utility across numerous industries and applications, including:</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-4 wow fadeIn" data-wow-duration="1s" data-wow-delay="0.2s">
+                        <div class="card bg-transparent rounded-0 border-0 mb-4">
+                            <div class="row g-0 align-items-center">
+                                <div class="col-md-4">
+                                    <img src="assets/images/products/application-01.jpg" class="img-fluid" alt="">
+                                </div>
+                                <div class="col-md-8">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Chain Link Fencing</h5>
+                                        <p class="card-textp mb-0">This is a wider card with supporting text below as a
+                                            natural lead-in to additional content. This content is a little bit longer.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 wow fadeIn" data-wow-duration="1s" data-wow-delay="0.25s">
+                        <div class="card bg-transparent rounded-0 border-0 mb-4">
+                            <div class="row g-0 align-items-center">
+                                <div class="col-md-4">
+                                    <img src="assets/images/products/application-02.jpg" class="img-fluid" alt="">
+                                </div>
+                                <div class="col-md-8">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Chain Link Fencing</h5>
+                                        <p class="card-textp mb-0">This is a wider card with supporting text below as a
+                                            natural lead-in to additional content. This content is a little bit longer.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 wow fadeIn" data-wow-duration="1s" data-wow-delay="0.3s">
+                        <div class="card bg-transparent rounded-0 border-0 mb-4">
+                            <div class="row g-0 align-items-center">
+                                <div class="col-md-4">
+                                    <img src="assets/images/products/application-01.jpg" class="img-fluid" alt="">
+                                </div>
+                                <div class="col-md-8">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Chain Link Fencing</h5>
+                                        <p class="card-textp mb-0">This is a wider card with supporting text below as a
+                                            natural lead-in to additional content. This content is a little bit longer.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 wow fadeIn" data-wow-duration="1s" data-wow-delay="0.35s">
+                        <div class="card bg-transparent rounded-0 border-0 mb-4">
+                            <div class="row g-0 align-items-center">
+                                <div class="col-md-4">
+                                    <img src="assets/images/products/application-02.jpg" class="img-fluid" alt="">
+                                </div>
+                                <div class="col-md-8">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Chain Link Fencing</h5>
+                                        <p class="card-textp mb-0">This is a wider card with supporting text below as a
+                                            natural lead-in to additional content. This content is a little bit longer.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 wow fadeIn" data-wow-duration="1s" data-wow-delay="0.4s">
+                        <div class="card bg-transparent rounded-0 border-0 mb-4">
+                            <div class="row g-0 align-items-center">
+                                <div class="col-md-4">
+                                    <img src="assets/images/products/application-01.jpg" class="img-fluid" alt="">
+                                </div>
+                                <div class="col-md-8">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Chain Link Fencing</h5>
+                                        <p class="card-textp mb-0">This is a wider card with supporting text below as a
+                                            natural lead-in to additional content. This content is a little bit longer.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 wow fadeIn" data-wow-duration="1s" data-wow-delay="0.45s">
+                        <div class="card bg-transparent rounded-0 border-0 mb-4">
+                            <div class="row g-0 align-items-center">
+                                <div class="col-md-4">
+                                    <img src="assets/images/products/application-02.jpg" class="img-fluid" alt="">
+                                </div>
+                                <div class="col-md-8">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Chain Link Fencing</h5>
+                                        <p class="card-textp mb-0">This is a wider card with supporting text below as a
+                                            natural lead-in to additional content. This content is a little bit longer.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 wow fadeIn" data-wow-duration="1s" data-wow-delay="0.5s">
+                        <div class="card bg-transparent rounded-0 border-0 mb-4">
+                            <div class="row g-0 align-items-center">
+                                <div class="col-md-4">
+                                    <img src="assets/images/products/application-01.jpg" class="img-fluid" alt="">
+                                </div>
+                                <div class="col-md-8">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Chain Link Fencing</h5>
+                                        <p class="card-textp mb-0">This is a wider card with supporting text below as a
+                                            natural lead-in to additional content. This content is a little bit longer.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 wow fadeIn" data-wow-duration="1s" data-wow-delay="0.55s">
+                        <div class="card bg-transparent rounded-0 border-0 mb-4">
+                            <div class="row g-0 align-items-center">
+                                <div class="col-md-4">
+                                    <img src="assets/images/products/application-02.jpg" class="img-fluid" alt="">
+                                </div>
+                                <div class="col-md-8">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Chain Link Fencing</h5>
+                                        <p class="card-textp mb-0">This is a wider card with supporting text below as a
+                                            natural lead-in to additional content. This content is a little bit longer.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 wow fadeIn" data-wow-duration="1s" data-wow-delay="0.6s">
+                        <div class="card bg-transparent rounded-0 border-0 mb-4">
+                            <div class="row g-0 align-items-center">
+                                <div class="col-md-4">
+                                    <img src="assets/images/products/application-01.jpg" class="img-fluid" alt="">
+                                </div>
+                                <div class="col-md-8">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Chain Link Fencing</h5>
+                                        <p class="card-textp mb-0">This is a wider card with supporting text below as a
+                                            natural lead-in to additional content. This content is a little bit longer.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="packaging-details sec-padd">
+        <div class="container-fluid">
+            <div class="row justify-content-center align-items-center">
+                <div class="col-12 mb-4">
+                    <h2 class="heading-dark text-uppercase wow fadeIn" data-wow-duration="1s" data-wow-delay="0.1s">Packaging Details</h2>
+                    <p class=" wow fadeIn" data-wow-duration="1s" data-wow-delay="0.15s">Our Mild Steel Wire is securely packaged to protect it during transportation and storage:</p>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-lg-4 wow fadeInLeft" data-wow-duration="1s" data-wow-delay="0.2s">
+                    <div class="card p-0 border-0 h-100 rounded-0 text-center">
+                        <img class="card-img-topp2 rounded-0" src="assets/images/products/packaging-01.jpg" alt="">
+                        <div class="card-bodyp2">
+                            <p class="mb-0"><strong>Coil Packaging : </strong>Each wire is neatly coiled to prevent
+                                deformation or damage during transit.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.3s">
+                    <div class="card p-0 border-0 h-100 rounded-0 text-center">
+                        <img class="card-img-topp2 rounded-0" src="assets/images/products/packaging-02.jpg" alt="">
+                        <div class="card-bodyp2">
+                            <p class="mb-0"><strong>Labeling : </strong>Clear labeling includes product details,
+                                specifications, and batch information for easy identification.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 wow fadeInRight" data-wow-duration="1s" data-wow-delay="0.4s">
+                    <div class="card p-0 border-0 h-100 rounded-0 text-center">
+                        <img class="card-img-topp2 rounded-0" src="assets/images/products/packaging-03.jpg" alt="">
+                        <div class="card-bodyp2">
+                            <p class="mb-0"><strong>Custom Packaging : </strong>We offer customizable packaging
+                                solutions to meet specific customer requirements, ensuring safe and efficient handling
+                                of the wires.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="quality-assurance">
+        <div class="container-fluid">
+            <div class="row justify-content-center align-items-center">
+                <div class="col-12 mb-4">
+                    <h2 class="heading-dark text-uppercase wow fadeIn" data-wow-duration="1s" data-wow-delay="0.1s">Quality Assurance</h2>
+                    <p class=" wow fadeIn" data-wow-duration="1s" data-wow-delay="0.15s">At every stage of production, we prioritize quality to deliver wires that meet or exceed industry
+                        standards. Our commitment to quality assurance includes:</p>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-lg-3 wow fadeIn" data-wow-duration="1s" data-wow-delay="0.3s">
+                    <div class="card border-0 h-100 rounded-0 text-center p-4 p-lg-5">
+                        <img class="card-img-top rounded-0 mx-auto mb-3" src="assets/images/products/icon-01.png" alt="">
+                        <div class="card-bodyp">
+                            <p class="mb-0"><strong>Raw Material Inspection</strong></p>
+                            <p class="mb-0"> Thorough inspection of raw materials to ensure they meet our stringent quality requirements.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 wow fadeIn" data-wow-duration="1s" data-wow-delay="0.4s">
+                    <div class="card border-0 h-100 rounded-0 text-center p-4 p-lg-5">
+                        <img class="card-img-top rounded-0 mx-auto mb-3" src="assets/images/products/icon-01.png" alt="">
+                        <div class="card-bodyp">
+                            <p class="mb-0"><strong>In-Process Testing</strong></p>
+                            <p class="mb-0">Regular testing during manufacturing to verify adherence to specifications.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 wow fadeIn" data-wow-duration="1s" data-wow-delay="0.5s">
+                    <div class="card border-0 h-100 rounded-0 text-center p-4 p-lg-5">
+                        <img class="card-img-top rounded-0 mx-auto mb-3" src="assets/images/products/icon-01.png" alt="">
+                        <div class="card-bodyp">
+                            <p class="mb-0"><strong>Final Inspection</strong></p>
+                            <p class="mb-0">Comprehensive quality checks on finished wires, including dimensions, surface finish, and mechanical properties.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 wow fadeIn" data-wow-duration="1s" data-wow-delay="0.6s">
+                    <div class="card border-0 h-100 rounded-0 text-center p-4 p-lg-5">
+                        <img class="card-img-top rounded-0 mx-auto mb-3" src="assets/images/products/icon-01.png" alt="">
+                        <div class="card-bodyp">
+                            <p class="mb-0"><strong>Certifications</strong></p>
+                            <p class="mb-0">Our products come with quality certifications to provide confidence in their performance.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="after-sales sec-padd pb-0">
+        <div class="container-fluid">
+            <div class="row justify-content-center align-items-center">
+                <div class="col-12 mb-4">
+                    <h2 class="heading-dark text-uppercase wow fadeIn" data-wow-duration="1s" data-wow-delay="0.1s">After-Sale Services</h2>
+                    <p class=" wow fadeIn" data-wow-duration="1s" data-wow-delay="0.15s">We are committed to supporting our customers even after the purchase :</p>
+                </div>
+            </div>
+            <div class="row g-0 justify-content-center">
+                <div class="col-lg-3 wow fadeIn" data-wow-duration="1s" data-wow-delay="0.2s">
+                    <div class="card h-100 rounded-0 text-center p-4">
+                        <img class="card-img-topp rounded-0 mx-auto mb-3" src="assets/images/products/after-sales-icon-02.png" alt="">
+                        <div class="card-bodyp pb-0">
+                            <h3 class="mb-0">Accountability</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 wow fadeIn" data-wow-duration="1s" data-wow-delay="0.3s">
+                    <div class="card h-100 rounded-0 text-center p-4">
+                        <img class="card-img-topp rounded-0 mx-auto mb-3" src="assets/images/products/after-sales-icon-02.png" alt="">
+                        <div class="card-bodyp pb-0">
+                            <h3 class="mb-0">Customer Support</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 wow fadeIn" data-wow-duration="1s" data-wow-delay="0.4s">
+                    <div class="card h-100 rounded-0 text-center p-4">
+                        <img class="card-img-topp rounded-0 mx-auto mb-3" src="assets/images/products/after-sales-icon-02.png" alt="">
+                        <div class="card-bodyp pb-0">
+                            <h3 class="mb-0">Product Warranty</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 mt-4">
+                    <p class="mb-0 mt-4 wow fadeIn" data-wow-duration="1s" data-wow-delay="0.45s">Invest in our High Carbon Steel Wires and experience the difference that quality, precision, and reliability can make in your applications. With secure packaging and unwavering quality assurance, we ensure your satisfaction from the moment of purchase to the final use of our products.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="sec-padd">
+        <div class="container-fluid">
+            <div class="row justify-content-center align-items-center">
+                <div class="col-12 mb-4">
+                    <h2 class="heading-dark text-uppercase wow fadeIn" data-wow-duration="1s" data-wow-delay="0.1s">Indian Specification IS 280</h2>
+                    <p class=" wow fadeIn" data-wow-duration="1s" data-wow-delay="0.15s">We are committed to supporting our customers even after the purchase :</p>
+                </div>
+                <div class="col-12">
+                    <h3 class="text-center mb-4 wow fadeIn" data-wow-duration="1s" data-wow-delay="0.2s">TECHNICAL SPECIFICATION OF GI WIRE IS:280 (HARD WIRE)</h3>
+                    <div class="table-responsive mb-5">
+                        <table class="table specification-table table-bordered table-striped-columns">
+                            <thead>
+                                <tr>
+                                    <th rowspan="2">Nominal diameter  (mm)</th>
+                                    <th rowspan="2">Tolerance in Diameter (mm)</th>
+                                    <th rowspan="2">Tensile strength  N/mm2</th>
+                                    <th rowspan="2">Elongation (%) minimum</th>
+                                    <th colspan="2">Bending test</th>
+                                    <th rowspan="2">Nominal mass g/m</th>
+                                    <th rowspan="2">Tolerance g/m</th>
+                                    <th colspan="2">Stress reduction after Relaxation Test at 20o C ± 2%</th>
+                                </tr>
+                                <tr>
+                                    <th>Times 1800 No less than</th>
+                                    <th>Radius of JAW (mm)</th>
+                                    <th>100 h</th>
+                                    <th>1000 h</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>4.00 mm</td>
+                                    <td>± 0.05</td>
+                                    <td>1715</td>
+                                    <td>3%</td>
+                                    <td>3</td>
+                                    <td>8</td>
+                                    <td>98.2</td>
+                                    <td>456</td>
+                                    <td>66</td>
+                                    <td>33</td>
+                                </tr>
+                                <tr>
+                                    <td>3.00 mm</td>
+                                    <td>± 0.05</td>
+                                    <td>1815</td>
+                                    <td>2.5%</td>
+                                    <td>2</td>
+                                    <td>9</td>
+                                    <td>73.5</td>
+                                    <td>15</td>
+                                    <td>856</td>
+                                    <td>87</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <h3 class="text-center mb-4 wow fadeIn" data-wow-duration="1s" data-wow-delay="0.2s">TECHNICAL SPECIFICATION OF GI WIRE IS:280 (HARD WIRE)</h3>
+                    <div class="table-responsive">
+                        <table class="table specification-table table-bordered table-striped-columns">
+                            <thead>
+                                <tr>
+                                    <th rowspan="2">Nominal diameter  (mm)</th>
+                                    <th rowspan="2">Tolerance in Diameter (mm)</th>
+                                    <th rowspan="2">Tensile strength  N/mm2</th>
+                                    <th rowspan="2">Elongation (%) minimum</th>
+                                    <th colspan="2">Bending test</th>
+                                    <th rowspan="2">Nominal mass g/m</th>
+                                    <th rowspan="2">Tolerance g/m</th>
+                                    <th colspan="2">Stress reduction after Relaxation Test at 20o C ± 2%</th>
+                                </tr>
+                                <tr>
+                                    <th>Times 1800 No less than</th>
+                                    <th>Radius of JAW (mm)</th>
+                                    <th>100 h</th>
+                                    <th>1000 h</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>4.00 mm</td>
+                                    <td>± 0.05</td>
+                                    <td>1715</td>
+                                    <td>3%</td>
+                                    <td>3</td>
+                                    <td>8</td>
+                                    <td>98.2</td>
+                                    <td>456</td>
+                                    <td>66</td>
+                                    <td>33</td>
+                                </tr>
+                                <tr>
+                                    <td>3.00 mm</td>
+                                    <td>± 0.05</td>
+                                    <td>1815</td>
+                                    <td>2.5%</td>
+                                    <td>2</td>
+                                    <td>9</td>
+                                    <td>73.5</td>
+                                    <td>15</td>
+                                    <td>856</td>
+                                    <td>87</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Footer start here -->
+    <footer class="px-md-5 pt-5 footerp">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-xl-3 col-md-6 mb-4 mb-md-0">
+                    <img class="img-fluid" src="assets/images/footer-logo.png" alt="Nirmal" width="200">
+                </div>
+                <div class="col-xl-3 col-md-6 d-xl-none text-md-end">
+                    <h5 class="mb-4">Toll Free No. 1800 309 3876</h5>
+                    <div class="social text-end position-relative d-none d-md-block">
+                        <ul class="list-unstyled d-inline-flex mb-0">
+                            <li>
+                                <a href="#">
+                                    <img class="img-fluid" src="assets/images/facebook.svg" alt="Facebook" />
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img class="img-fluid" src="assets/images/instagram.svg" alt="Instagram" />
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img class="img-fluid" src="assets/images/linkedin.svg" alt="Linkedin" />
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img class="img-fluid" src="assets/images/youtube.svg" alt="Youtube" />
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img class="img-fluid" src="assets/images/twitter.svg" alt="Twitter" />
+                                </a>
+                            </li>
+                            <li>
+                                <a href="download.html">
+                                    <img class="img-fluid" src="assets/images/download.svg" alt="Download" />
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <img class="img-fluid mb-5" src="assets/images/50years.jpg">
+                </div>
+                <div class="col-xl-6">
+                    <div class="row">
+                        <div class="col-md-4 col-sm-6">
+                            <div class="footer-imnner">
+                                <h5>COMPANY</h5>
+                                <ul class="list-unstyled">
+                                    <li><a href="about.html" class="text-decoration-none">Our Story</a></li>
+                                    <li><a href="coming-soon.html" class="text-decoration-none">Products</a></li>
+                                    <li><a href="ourPresence.html" class="text-decoration-none">Our Presence</a></li>
+                                    <li><a href="coming-soon.html" class="text-decoration-none">CSR</a></li>
+                                </ul>
+                            </div>
+                            <!-- <div class="footer_text2">
+                                <h5>Products</h5>
+                                <ul class="list-unstyled">
+                                    <li><a href="products.html" class="text-decoration-none">Product by Type</a></li>
+                                    <li><a href="products.html" class="text-decoration-none">Product by Industry</a></li>
+                                </ul>
+                            </div> -->
+                        </div>
+                        <div class="col-md-5 col-sm-6 mt-4 mt-sm-0">
+                                <div class="footer-imnner" style="margin-bottom: 2.4rem;">
+                                    <!-- <h5 class="text1"><a href="retail.html" class="text-decoration-none">RETAIL</a></h5> -->
+                                </div>
+                            <div>
+                                <!-- <h5>Our Infrastructure</h5> -->
+                                <ul class="list-unstyled">
+                                    <li><a href="./coming-soon.html" class="text-decoration-none">Trading</a></li>
+                                    <li><a href="./coming-soon.html" class="text-decoration-none">Quality Assurance</a></li>
+                                    <li><a href="./coming-soon.html" class="text-decoration-none">Our Blogs</a></li>
+                                    <li><a href="./coming-soon.html" class="text-decoration-none">Our Gallery</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6 mt-4 mt-md-0">
+                            <div class="footer-imnner" style="width: 10rem; position: relative; right: 2rem;">
+                                <h5>CONTACT US</h5>
+                                <ul class="list-unstyled">
+                                    <li><a href="#" class="text-decoration-none">Corporate Office</a></li>
+                                    <li><a href="#" class="text-decoration-none">Manufacturing Units</a></li>
+                                    <li><a href="#" class="text-decoration-none">Careers</a></li>
+                                    <li><a href="#" class="text-decoration-none">Media</a></li>
+                                </ul>
+                            </div>
+                            <!-- <h5 class="text1"><a href="csr.html" class="text-decoration-none">CSR</a></h5> -->
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 d-none d-xl-block text-end" >
+                    <h5 class="mb-3">Toll Free No. 1800 309 3876</h5>
+                    <div class="social text-end position-relative d-none d-md-block mb-4">
+                        <ul class="list-unstyled d-inline-flex mb-0">
+                            <li>
+                                <a href="#">
+                                    <img class="img-fluid" src="assets/images/facebook.svg" alt="Facebook" />
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img class="img-fluid" src="assets/images/instagram.svg" alt="Instagram" />
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img class="img-fluid" src="assets/images/linkedin.svg" alt="Linkedin" />
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img class="img-fluid" src="assets/images/youtube.svg" alt="Youtube" />
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img class="img-fluid" src="assets/images/twitter.svg" alt="Twitter" />
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <img class="img-fluid ms-auto" src="assets/images/50years.jpg" width="75">
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Footer ends here -->
+
+    <!-- js -->
+    <a href="https://wa.me/18003093876" class="float" target="_blank">
+        <img class="img-fluid" src="assets/images/whatsapp.svg" alt="whatsapp">
+    </a>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-mousewheel/3.1.13/jquery.mousewheel.min.js"></script>
+    <script src="https://alexandrebuffet.fr/codepen/slider/slick-animation.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"
+        integrity="sha256-z6FznuNG1jo9PP3/jBjL6P3tvLMtSwiVAowZPOgo56U=" crossorigin="anonymous"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>

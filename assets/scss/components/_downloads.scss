@@ -1,0 +1,26 @@
+.download {
+    background-image: url(../../assets/images/download-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+    height: 100vh;
+    h1 {
+        color: $accent-color-dark;
+    }
+    .card{
+        background-color: transparent;
+        img{
+            width: 100px;
+            margin: 0 auto;
+        }
+        h2{
+            font-weight: $semi-bold;
+            @include scalableFont(22,28)
+        }
+        a{
+            color: $accent-color;
+            font-weight: $medium;
+            @include scalableFont(20,22)
+        }
+    }
+}

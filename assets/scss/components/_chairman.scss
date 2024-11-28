@@ -1,0 +1,24 @@
+.chairman {
+    background-image: url(../../assets/images/chairman-bg.png);
+    color: $secondary-color;
+    text-align: justify;
+    &.home-chairman{
+        height: 100vh;
+    }
+
+    @include bp(mid-desktop2) {
+        padding: 3rem 0;
+    }
+    &.md{
+        background: #2b2b2b;
+    }
+    .des,
+    .name {
+        @include scalableFont(14, 25);
+        font-weight: $medium;
+    }
+
+    .name {
+        font-weight: $bold;
+    }
+}

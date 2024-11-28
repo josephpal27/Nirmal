@@ -1,0 +1,61 @@
+.banner {
+    background-image: linear-gradient(to top, rgba(16, 44, 65, 0.80), rgba(16, 44, 65, 0.80)), url(../../assets/images/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+
+    @include bp(custom-991) {
+        height: 40vh;
+    }
+
+    @include bp(custom-479) {
+        height: 20vh;
+    }
+
+    &.inner-banner {
+
+        // height: 70vh;
+        // @include bp(custom-991){
+        //     height: 38vh;
+        // }
+        // @include bp(custom-479){
+        //     height: 20vh;
+        // }
+        &.about-banner {
+            // height: 70vh;
+
+            // @include bp(custom-991) {
+            //     height: 38vh;
+            // }
+
+            // @include bp(custom-479) {
+            //     height: 20vh;
+            // }
+
+            background-image: url(../../assets/images/about-banner.jpg);
+        }
+
+        &.product-banner {
+            height: 70vh;
+
+            @include bp(custom-991) {
+                height: 38vh;
+            }
+
+            @include bp(custom-479) {
+                height: 20vh;
+            }
+
+            background-image: url(../../assets/images/product-banner.jpg);
+        }
+
+        &.download-banner {
+            background-image: url(../../assets/images/download-banner.jpg);
+        }
+        &.ourPresence-banner{
+            height: 100vh;
+            background-image: url(../../assets/images/our-Presence-banner.jpg);
+        }
+    }
+}

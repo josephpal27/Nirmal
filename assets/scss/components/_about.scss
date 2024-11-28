@@ -1,0 +1,169 @@
+.about {
+
+    // padding: 2rem 0 4rem;
+    .about-img video {
+        width: 80%;
+        height: 48.75rem;
+        object-fit: cover;
+
+        @include bp(custom-1440) {
+            height: 40.625rem;
+        }
+
+        @include bp(custom-991) {
+            height: 34.375rem;
+        }
+
+        @include bp(phone-end) {
+            width: 100%;
+            height: auto;
+        }
+    }
+
+    .about-text {
+        position: absolute;
+        bottom: 0;
+        width: 32%;
+        background-color: rgba(43, 129, 184, 0.8);
+        color: $secondary-color;
+        padding: 4rem 4rem 10rem;
+
+        @include bp(custom-1600) {
+            width: 40%;
+        }
+
+        @include bp(mid-desktop) {
+            width: 50%;
+        }
+
+        @include bp(custom-991) {
+            width: 65%;
+        }
+
+        @include bp(phone-end) {
+            position: relative;
+            width: 100%;
+            padding: 4rem 2rem 8rem;
+        }
+
+        @include bp(custom-479) {
+            padding: 2rem 1.5rem;
+        }
+
+        p {
+            text-align: justify;
+        }
+    }
+}
+
+.counter {
+    margin: -4rem auto 0;
+    width: 90%;
+
+    @include bp(phone-end) {
+        width: 100%;
+    }
+
+    @include bp(custom-479) {
+        margin: 1rem auto 0;
+    }
+
+    .col-6 {
+        @include bp(custom-479) {
+            width: 100%;
+        }
+    }
+
+    .counter-box {
+        background-color: $secondary-color;
+        padding: 3rem 2rem;
+        box-shadow: 0 0 1rem rgba(16, 44, 65, 0.30);
+        color: $accent-color;
+        font-weight: $medium;
+
+        &.counter-box-alt {
+            background-color: $accent-color;
+            color: $secondary-color;
+        }
+
+        @include bp(phone-end) {
+            padding: 2rem 1rem;
+        }
+
+        h5 {
+            @include scalableFont(25, 45);
+            font-weight: $extra-bold;
+        }
+
+        p {
+            @include scalableFont(16, 22);
+            font-weight: $medium;
+        }
+    }
+}
+
+// .about-box {
+    // background-image: url(../../assets/images/timeline-bg.png);
+    // background-position: top center;
+    // background-repeat: no-repeat;
+    // background-size: cover;
+    // position: absolute;
+    // bottom: -18rem;
+    .about-details {
+        background-color: rgba(43, 129, 184, 0.8);
+        color: $secondary-color;
+        padding: 4rem;
+
+        p {
+            text-align: justify;
+        }
+
+        .collapse-btn {
+            color: $accent-color-dark;
+            font-weight: $medium;
+
+            &::before {
+                content: '...Read Less';
+                display: block;
+                color: $accent-color-dark;
+                font-weight: $medium;
+            }
+            &.collapsed{
+                &::before {
+                    content: '...Read More';
+                }
+            }
+        }
+    }
+// }
+
+.mission-vision {
+    .card {
+        background-color: rgba(43,129,184,0.8);
+        color: $secondary-color;
+        padding: 3rem;
+
+        .card-img {
+            background-color: #d9d9d9;
+            width: 30%;
+            margin: -8rem auto 2rem;
+            padding: 2.8rem;
+            border: 18px solid $secondary-color;
+        }
+
+        .card-body {
+            h2 {
+                font-weight: $bold;
+                @include scalableFont(20, 45);
+                margin-bottom: 2.5rem;
+            }
+
+            h5 {
+                line-height: 1.6;
+                font-weight: $semi-bold;
+                @include scalableFont(17, 22);
+                margin-bottom: 1.5rem;
+            }
+        }
+    }
+}

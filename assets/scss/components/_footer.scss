@@ -1,0 +1,57 @@
+footer{
+    background-image: url(../../assets/images/footer-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 3.75rem 0;
+    border-bottom: 4.375rem solid $accent-color;
+    color: $secondary-color;
+    @include bp(custom-479) {
+        padding: 3.75rem 0 1.875rem;
+        border-bottom: 2.1875rem solid $accent-color;
+    }
+    h5{
+        font-weight: $bold;
+        margin-bottom: 1rem;
+    }
+    a{
+        color: $secondary-color;
+        &:hover{
+            color: $secondary-color;
+        }
+    }
+    .social {
+        @include bp(phone-end) {
+            background-color: $accent-color;
+            padding: 0 .75rem;
+        }
+    
+        ul {
+    
+            li {
+                width: 1.75rem;
+    
+                &:not(:last-child) {
+                    margin-right: 0.875rem;
+                }
+    
+                @include bp(custom-800) {
+                    width: 1.75rem;
+    
+                    &:not(:last-child) {
+                        margin-right: 0.625rem;
+                    }
+                }
+    
+                @include bp(phone-end) {
+                    width: 1.25rem;
+                }
+            }
+        }
+    }
+    .footer-imnner{
+        margin-bottom: 3rem;
+        @include bp(custom-479) {
+            margin-bottom: .5rem;
+        }
+    }
+}
