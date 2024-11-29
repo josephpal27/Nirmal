@@ -207,35 +207,30 @@
                                         <h1 class="heading mb-4">CONTACT US</h1>
                                         <form>
                                             <div class="form-floating" style="height: 2rem; font-size: 15px; margin-bottom: 2.5rem;">
-                                                <input type="text" class="form-control rounded-0"
-                                                    placeholder="name@example.com">
-                                                <label for="floatingInput">Name*</label>
+                                                <input type="text" id="name" class="form-control rounded-0" placeholder="name@example.com">
+                                                <label for="name">Name*</label>
                                             </div>
                                             <div class="form-floating" style="height: 2rem; font-size: 15px; margin-bottom: 2.5rem;">
-                                                <input type="email" class="form-control rounded-0"
-                                                    placeholder="name@example.com">
-                                                <label for="floatingInput">Email*</label>
+                                                <input type="email" id="email" class="form-control rounded-0" placeholder="name@example.com">
+                                                <label for="email">Email*</label>
                                             </div>
                                             <div class="form-floating mb-3">
-                                                <select class="form-select rounded-0" style="height: 2rem; font-size: 15px;" aria-label="Subject">
-                                                    <option selected>Select</option>
-                                                    <option value="1">One</option>
-                                                    <option value="2">Two</option>
-                                                    <option value="3">Three</option>
+                                                <select id="subject" name="subject" class="rounded-0" style="width: 100%; height: 3.5rem; font-size: 15px; border: 1px solid #dadada; padding: 0.5rem 10px;">
+                                                    <option disabled selected>Select</option>
+                                                    <option value="one">One</option>
+                                                    <option value="two">Two</option>
+                                                    <option value="three">Three</option>
                                                 </select>
-                                                <label for="floatingSelect">Subject</label>
+                                                <!-- <label for="subject">Subject</label> -->
                                             </div>
                                             <div class="form-floating" style="height: 2rem; font-size: 15px; margin-bottom: 2.5rem;">
-                                                <textarea class="form-control rounded-0"
-                                                    placeholder="Leave a comment here"></textarea>
-                                                <label for="floatingTextarea2">Message</label>
+                                                <textarea id="message" class="form-control rounded-0" placeholder="Leave a comment here"></textarea>
+                                                <label for="message">Message</label>
                                             </div>
-                                            <div><button type="submit"
-                                                    class="btn btn-primary d-block w-100 py-3"
-                                                    style="height: 3rem; font-size: 15px; position: relative;"
-                                                    >REQUEST</button>
+                                            <div>
+                                                <button type="submit" class="btn btn-primary d-block w-100 py-3" style="height: 3rem; font-size: 15px; position: relative;">REQUEST</button>
                                             </div>
-                                        </form>
+                                        </form>                                        
                                     </div>
                                     <div class="col-lg-5 mt-5 mt-lg-0">
                                         <iframe
