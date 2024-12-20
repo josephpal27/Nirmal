@@ -816,6 +816,7 @@ header .social ul li:not(:last-child) {
   height: 220px;
   width: 220px;
   justify-content: center;
+  cursor: pointer;
 }
 .producthome .card img {
   height: 100%;
@@ -837,14 +838,19 @@ header .social ul li:not(:last-child) {
   transition: 0.5s all ease;
   z-index: -1;
 }
+.producthome .card .card-body a {
+  text-decoration: none;
+}
 .producthome .card .card-body h3 {
   font-size: calc(15px + (20 - 15) * ((100vw - 300px) / (1920 - 300)));
+  color: #fff;
 }
 .producthome .card .card-body h3 span {
   font-size: calc(13px + (16 - 13) * ((100vw - 300px) / (1920 - 300)));
 }
 .producthome .card .card-body p {
   font-size: calc(12px + (14 - 12) * ((100vw - 300px) / (1920 - 300)));
+  color: #fff;
 }
 .producthome .card .card-body .explore-btn {
   font-size: calc(14px + (18 - 14) * ((100vw - 300px) / (1920 - 300)));
@@ -863,6 +869,9 @@ header .social ul li:not(:last-child) {
 .producthome .card:hover .card-body {
   align-items: start !important;
   text-align: start !important;
+}
+.producthome .card:hover .card-body h3{
+  color: #000;
 }
 .producthome .card:hover .card-body::before {
   content: "";
@@ -912,12 +921,21 @@ header .social ul li:not(:last-child) {
   justify-content: center;
   box-shadow: -1rem 1rem 1rem rgba(0, 0, 0, 0.15);
   margin: 0 auto 1.5rem;
+  cursor: pointer;
+  overflow: hidden;
+}
+.products .tab-content .card .card-img img{
+  transition: all 0.4s ease;
+}
+.products .tab-content .card .card-img img:hover{
+  scale: 1.2;
 }
 .products .tab-content .card .card-body h3 {
   color: #194b71;
   font-weight: 500;
   margin-bottom: 1.5rem;
   font-size: calc(14px + (18 - 14) * ((100vw - 300px) / (1920 - 300)));
+  cursor: pointer;
 }
 .products .tab-content .card .card-footer .btn {
   background-color: #194b71;
@@ -1236,6 +1254,23 @@ footer .footer-imnner {
   font-size: 5.5rem;
   color: #fff;
   font-weight: 700;
+}
+.banner-content{
+  position: absolute;
+  bottom: 3rem;
+  left: 4rem;
+  color: #fff;
+}
+.banner-content h2{
+  font-size: 4rem;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.banner-content p{
+  font-size: 1.1rem;
+  font-weight: 500;
+  max-width: 60%;
+  margin-top: 1rem;
 }
 /* .Product Carousel */
 .product-slider{
@@ -1569,7 +1604,7 @@ footer .footer-imnner {
 }
 /* After Sale Services */
 .after-sale-services{
-  padding-top: 2rem;
+  padding-top: 3.7rem;
 }
 .after-sale-container{
   width: 80%;
@@ -1591,7 +1626,7 @@ footer .footer-imnner {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-top: 1.5rem;
+  margin-top: 2.3rem;
   overflow: hidden;
 }
 .after-sale-container .after-sale-card-row .after-sale-card{
@@ -1634,6 +1669,7 @@ footer .footer-imnner {
   width: 90%;
   margin-left: 5%;
   text-align: justify;
+  display: none;
 }
 /* Footer */
 #slide-5{
@@ -1674,22 +1710,47 @@ footer .footer-imnner {
 }
 /* Product Licenses */
 .product-license{
-  width: 85%;
-  margin-left: 7.5%;
+  width: 90%;
+  margin-left: 5%;
   padding: 2.5rem 0;
+  display: flex;
+  justify-content: space-between;
+}
+.product-license .product-licence-left{
+  width: 54%;
+}
+.product-license .product-licence-right{
+  width: 44%;
 }
 .product-license h2{
   text-align: center;
-  font-size: 2.2rem;
+  font-size: 1.5rem;
   font-weight: 700;
   color: #396a91;
+  text-transform: uppercase;
 }
 .product-license .table{
-  margin-top: 2.5rem;
+  margin-top: 1.5rem;
+  width: 100%;
+  font-size: 0.8rem;
 }
+/* .product-license .product-licence-left .table{
+  margin-top: 3.7rem;
+} */
 .product-license #management-cert{
   text-transform: uppercase;
   margin-top: 4.5rem;
+}
+
+.product-license .table thead th {
+  padding: 0.85rem 4rem;
+}
+.product-license .table tbody tr th {
+  width: 22%;
+}
+.product-license .table tbody tr th,
+.product-license .table tbody tr td {
+  padding: 0.53rem 1rem;
 }
 /* Banner Text */
 .banner-with-text{

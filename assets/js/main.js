@@ -1,3 +1,20 @@
+// Functionality to close the menu when clicking outside of it
+document.addEventListener('DOMContentLoaded', function() {
+  document.addEventListener('click', function(event) {
+      var isClickInside = document.querySelector('.navbar').contains(event.target);
+
+      if (!isClickInside) {
+          // Hide the menu
+          var menu = document.querySelector('.collapsed-menubar');
+          if (menu.classList.contains('active')) {
+              menu.classList.remove('active');
+          }
+      }
+  });
+});
+ 
+// ------------------------------------------------------------------------------------------------
+
 const $slider = $(".slider");
 $slider
   .slick({
@@ -141,3 +158,6 @@ $(".media-slider").slick({
     },
   ],
 });
+
+
+
