@@ -922,14 +922,18 @@ header .social ul li:not(:last-child) {
   box-shadow: -1rem 1rem 1rem rgba(0, 0, 0, 0.15);
   margin: 0 auto 1.5rem;
   cursor: pointer;
+  transition: all 0.2s ease;
   overflow: hidden;
 }
-.products .tab-content .card .card-img img{
+.products .tab-content .card .card-img:hover {
+  scale: 1.1;
+}
+/* .products .tab-content .card .card-img img{
   transition: all 0.4s ease;
 }
 .products .tab-content .card .card-img img:hover{
   scale: 1.2;
-}
+} */
 .products .tab-content .card .card-body h3 {
   color: #194b71;
   font-weight: 500;
