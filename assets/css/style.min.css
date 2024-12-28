@@ -1895,7 +1895,7 @@ footer .footer-imnner {
   margin-top: 6rem;
 }
 .trading-banner .banner-content h1{
-  font-size: 5.5rem;
+  font-size: 5rem;
   font-weight: 700;
   text-transform: uppercase;
 }
@@ -2051,3 +2051,63 @@ footer .footer-imnner {
   width: 100%;
 }
 /* Trading Page Styling Ends Here */
+
+
+/* Aluminium Ingots Page Styling Starts Here */
+.product-features{
+  width: 90%;
+  margin-left: 5%;
+  padding: 4rem 0;
+}
+/* Features */
+.product-features h2{
+  text-align: center;
+  color: #1d5179;
+  font-weight: 700;
+  font-size: 2.7rem;
+  text-transform: uppercase;
+}
+.product-feature-card-row{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 6rem;
+  padding: 0 2rem;
+}
+.product-feature-card{
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow: hidden;
+}
+.product-feature-card:nth-child(2){
+  border-right: 0.6rem solid #194b71;
+  border-left: 0.6rem solid #194b71;
+  width: 36%;
+  padding: 0 1rem;
+}
+.product-feature-card .card-img{
+  height: 11rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.product-feature-card img{
+  width: 25%;
+}
+.product-feature-card h3{
+  color: #1d5179;
+  font-weight: 700;
+  font-size: 1.5rem;
+  margin-top: 0.5rem;
+  text-align: center;
+  min-height: 3.5rem;
+}
+.product-feature-card p{
+  text-align: center;
+  color: #000;
+  font-weight: 500;
+  font-size: 1rem;
+  margin-top: 0.5rem;
+}
+/* Aluminium Ingots Page Styling Ends Here */
