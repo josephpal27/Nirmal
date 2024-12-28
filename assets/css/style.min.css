@@ -1884,3 +1884,170 @@ footer .footer-imnner {
   bottom: -2.5rem;
 }
 /* Quality Assurance Styling Ends Here */
+
+
+/* Trading Page Styling Starts Here */
+/* Trading Banner */
+.trading-banner{
+  position: relative;
+}
+.trading-banner img{
+  margin-top: 6rem;
+}
+.trading-banner .banner-content h1{
+  font-size: 5.5rem;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+#trading-banner-overlay{
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #0044807e;
+}
+
+/* Trading products */
+.trading-products{
+  width: 91%;
+  height: 86.5%;
+  margin: 3rem 4.5%;
+  padding: 1.6rem 1.5rem;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 4px 10px;
+  border-radius: 5px;
+  overflow: hidden;
+}
+.trading-products h2{
+  text-align: center;
+  color: #1d5179;
+  font-weight: 700;
+  font-size: 2.3rem;
+  text-transform: uppercase;
+}
+.trading-products-card-row{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2rem;
+}
+.trading-products-card-row .trading-products-card{
+  width: 30%;
+  overflow: hidden;
+}
+.trading-products-card-row .trading-products-card img{
+  width: 100%;
+  transition: all 0.3s ease;
+}
+.trading-products-card-row .trading-products-card img:hover{
+  scale: 1.02;
+}
+.trading-products-card-row .trading-products-card-desc{
+  padding: 0 2rem 0.5rem 2rem;
+  text-align: center;
+}
+.trading-products-card-row .trading-products-card-desc h3{
+  color: #1d5179;
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+.trading-products-card-row .trading-products-card-desc p{
+  color: #000;
+  font-weight: 500;
+  font-size: 0.95rem;
+  margin-top: 0.9rem;
+}
+.trading-products-card-row .trading-products-card-desc button{
+  margin-top: 0.8rem;
+  background-color: #1d5179;
+  color: #fff;
+  border: none;
+  padding: 0.2rem 0.9rem;
+  font-weight: 450;
+  border-radius: 3px;
+  transition: all 0.2s ease;
+}
+.trading-products-card-row .trading-products-card-desc button:hover{
+  background-color: #0c3e64;
+}
+/* Why Choose Us */
+.why-choose-us{
+  width: 90%;
+  margin-left: 5%;
+  padding: 3rem 0;
+  overflow: hidden;
+}
+.why-choose-us h2{
+  text-align: center;
+  color: #1d5179;
+  font-weight: 700;
+  font-size: 2.3rem;
+  text-transform: uppercase;
+}
+.choose-us-cards-row{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 8rem;
+}
+.choose-us-card{
+  width: 23%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow: hidden;
+}
+.choose-us-card .card-img{
+  min-height: 12rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.choose-us-card img{
+  width: 45%;
+}
+.choose-us-card h3{
+  color: #1d5179;
+  font-weight: 700;
+  font-size: 1.5rem;
+  margin-top: 0.5rem;
+}
+.choose-us-card p{
+  text-align: center;
+  color: #000;
+  font-weight: 500;
+  font-size: 1rem;
+  margin-top: 0.5rem;
+}
+
+/* Partner With Us */
+.partner-with-us{
+  background-image: url(../../assets/images/trading/partner-with-us-bg.png);
+  background-size: cover;
+  padding-top: 7rem;
+  height: 100%;
+}
+.partner-with-us h2{
+  text-align: center;
+  color: #1d5179;
+  font-weight: 700;
+  font-size: 2.7rem;
+  text-transform: uppercase;
+}
+.partner-with-us p{
+  text-align: center;
+  color: #000;
+  font-weight: 500;
+  font-size: 1.2rem;
+  max-width: 60%;
+  margin-left: 20%;
+  margin-top: 2rem;
+}
+
+.trading-foot{
+  position: relative;
+}
+.trading-foot footer{
+  position: absolute;
+  bottom: -2rem;
+  left: 0;
+  width: 100%;
+}
+/* Trading Page Styling Ends Here */
