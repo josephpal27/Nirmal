@@ -1904,7 +1904,7 @@ footer .footer-imnner {
   top: 0;
   width: 100%;
   height: 100%;
-  background-color: #0044807e;
+  background-color: #024276b0;
 }
 
 /* Trading products */
@@ -2153,6 +2153,7 @@ footer .footer-imnner {
   padding: 2rem;
   background-color: #022746bf;
   transition: all 0.5s ease;
+  border-radius: 5px;
 }
 .aluminium-ingots-apps .apps-card .apps-card-layer p{
   color: #fff;
@@ -2263,3 +2264,151 @@ footer .footer-imnner {
   margin-top: 0.7rem;
 }
 /* Aluminium Ingots Page Styling Ends Here */
+
+/* Aluminium Wire Ingots Page Styling Starts Here */
+/* Features */
+.aluminium-wire-ingots-features{
+  padding: 2rem 0;
+}
+.six-product-feature-card-row{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 3.5rem;
+  padding: 0 1rem;
+}
+.six-product-feature-card-row .product-feature-card{
+  width: 33.33%;
+  padding: 0 1rem;
+}
+.six-product-feature-card-row .product-feature-card:nth-child(1){
+  border-bottom: 0.5rem solid #194b71;
+}
+.six-product-feature-card-row .product-feature-card:nth-child(2){
+  border-right: 0.5rem solid #194b71;
+  border-left: 0.5rem solid #194b71;
+  border-bottom: 0.5rem solid #194b71;
+  width: 33.33%;
+  padding: 0;
+}
+.six-product-feature-card-row .product-feature-card:nth-child(3){
+  border-bottom: 0.5rem solid #194b71;
+}
+.six-product-feature-card-row .product-feature-card:nth-child(5){
+  border-right: 0.5rem solid #194b71;
+  border-left: 0.5rem solid #194b71;
+}
+.six-product-feature-card-row .product-feature-card:nth-child(4),
+.six-product-feature-card-row .product-feature-card:nth-child(5),
+.six-product-feature-card-row .product-feature-card:nth-child(6){
+  padding-top: 3rem;
+  padding-bottom: 1rem;
+}
+.six-product-feature-card-row .product-feature-card .card-img{
+  height: 6rem;
+}
+.six-product-feature-card-row .product-feature-card img{
+  width: 15%;
+}
+.six-product-feature-card-row .product-feature-card:nth-child(4) img{
+  width: 8%;
+}
+.six-product-feature-card-row .product-feature-card h3{
+  margin-top: 0.8rem;
+  min-height: 1.5rem;
+}
+/* Applications */
+.aluminium-wire-ingots-apps{
+  padding: 2rem 0;
+}
+.aluminium-wire-ingots-apps p{
+  width: 70%;
+  margin-left: 15%;
+  text-align: center;
+  color: #000;
+  font-weight: 500;
+  font-size: 1.1rem;
+}
+.five-apps-row{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 2rem;
+  padding: 0 1rem;
+  gap: 5%;
+}
+.five-apps-row .apps-card-outer{
+  width: 25%;
+  margin-bottom: 2rem;
+}
+.five-apps-row .apps-card-outer .apps-card{
+  width: 100%;
+}
+.five-apps-row .apps-card-outer .apps-card .apps-card-layer{
+  padding: 0.8rem;
+  border-radius: 5px;
+}
+.five-apps-row .apps-card-outer .apps-card .apps-card-layer p{
+  font-size: 0.9rem;
+  width: 100%;
+  margin: 0;
+}
+.five-apps-row .apps-card-outer h3{
+  color: #1d5179;
+  font-weight: 700;
+  font-size: 1.4rem;
+  margin: 0;
+  margin-top: -1.2rem;
+  text-align: center;
+}
+/* Aluminium Wire Ingots Page Styling Ends Here */
+
+/* Zinc Ingots Page Styling Starts Here */
+/* Features */
+.zinc-ingots-features{
+  padding: 2rem 0;
+}
+.zinc-ingots-features .product-feature-card{
+  padding: 0 1.5rem 1rem 1.5rem !important;
+}
+.zinc-ingots-features .product-feature-card img{
+  width: 18%;
+}
+.zinc-ingots-features .product-feature-card:nth-child(4),
+.zinc-ingots-features .product-feature-card:nth-child(5){
+  width: 50%;
+  padding-top: 3rem !important;
+}
+.zinc-ingots-features .product-feature-card:nth-child(4) p,
+.zinc-ingots-features .product-feature-card:nth-child(5) p{
+  width: 80%;
+}
+.zinc-ingots-features .product-feature-card:nth-child(3) img{
+  width: 9%;
+}
+.zinc-ingots-features .product-feature-card:nth-child(4) img{
+  width: 12%;
+}
+.zinc-ingots-features .product-feature-card:nth-child(5) img{
+  width: 13%;
+}
+.zinc-ingots-features .product-feature-card:nth-child(5){
+  border-right: none;
+}
+/* Why Choose Us */
+.zinc-ingot-choose-us-card-row{
+  padding: 0 2%
+}
+.zinc-ingot-choose-us-card-row .ingot-choose-us-card{
+  width: 23%;
+}
+.zinc-ingot-choose-us-card-row .ingot-choose-us-card img{
+  width: 23%;
+}
+.zinc-ingot-choose-us-card-row .ingot-choose-us-card .card-img{
+  height: 7rem;
+}
+.zinc-ingot-choose-us-card-row .ingot-choose-us-card .card-img img{
+  width: 25%;
+}
+/* Zinc Ingots Page Styling Ends Here */
