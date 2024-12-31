@@ -1932,6 +1932,7 @@ footer .footer-imnner {
 .trading-products-card-row .trading-products-card{
   width: 30%;
   overflow: hidden;
+  cursor: pointer;
 }
 .trading-products-card-row .trading-products-card img{
   width: 100%;
