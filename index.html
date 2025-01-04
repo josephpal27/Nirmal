@@ -11,6 +11,7 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css" rel="stylesheet" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css" />
     <link rel='stylesheet' media="all" type="text/css" href='assets/css/style.min.css'>
+    <link rel='stylesheet' media="all" type="text/css" href='assets/css/home-mobile-responsive.css'>
     <style>
         body {
             overflow: hidden;
@@ -19,7 +20,7 @@
 </head>
 
 <body>
-    <div class="slider">
+    <div class="slider web-view" id="index-web-view">
         <div class="slide">
             <!-- Header Start -->
             <header class="pb-2 fixed-top">
@@ -624,9 +625,181 @@
             <!-- Footer ends here -->
         </div>
     </div>
+
     <a href="https://wa.me/18003093876" class="float" target="_blank">
         <img class="img-fluid" src="assets/images/whatsapp.svg" alt="whatsapp">
     </a>
+
+
+
+    <!-- ----------------------------------------------------------------------------------------------------------------------- -->
+
+    <!-- Mobile View Starts Here -->
+    <section class="mobile-view" id="index-mobile-view">
+        <!-- Header Start -->
+        <header class="pb-2 fixed-top">
+            <div class="social text-end position-relative d-md-none">
+                <div class="container-fluid pe-0">
+                    <ul class="list-unstyled d-inline-flex mb-0">
+                        <li>
+                            <a href="https://www.facebook.com/groupnirmal?mibextid=ZbWKwL" target="_blank">
+                                <img class="img-fluid" src="assets/images/facebook.svg" alt="Facebook" />
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.instagram.com/group.nirmal?igsh=MWFxZ3BqZzgzamhibg==" target="_blank">
+                                <img class="img-fluid" src="assets/images/instagram.svg" alt="Instagram" />
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.linkedin.com/company/nirmal-wires-private-limited/" target="_blank">
+                                <img class="img-fluid" src="assets/images/linkedin.svg" alt="Linkedin" />
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img class="img-fluid" src="assets/images/youtube.svg" alt="Youtube" />
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://x.com/NirmalWires" target="_blank">
+                                <img class="img-fluid" src="assets/images/twitter.svg" alt="Twitter" />
+                            </a>
+                        </li>
+                        <li>
+                            <a href="download.html">
+                                <img class="img-fluid" src="assets/images/download.svg" alt="Download" />
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="container-fluid">
+                <div class="navbar py-0 position-relative align-items-start">
+                    <div class="menu d-flex align-items-center w-75">
+                        <a class="navbar-brand py-0 px-1" href="index.html" style="margin-left: -2rem;">
+                            <img class="img-fluid" src="assets/images/logo.png" alt="Nirmal" />
+                        </a>
+                        <div class="nav-line"></div>
+                        <div class="group-logo mt-0 ms-0 pe-1">
+                            <img class="img-fluid w-100" src="assets/images/group-logo.jpg" alt="Group Logo" />
+                        </div>
+                        <button id="navbar-toggler" class="navbar-toggler d-inline-flex align-items-center">
+                            <img class="img-fluid me-1" src="assets/images/menu.svg" alt="" />
+                            <span>MENU</span>
+                        </button>
+                    </div>
+                    <ul
+                        class="collapsed-menubar list-unstyled row row-cols-lg-4 row-cols-xl-5 justify-content-between position-absolute mb-0">
+                        <li class="col text-center">
+                            <a class="text-decoration-none d-flex d-lg-block align-items-center" href="index.html">
+                                <img class="img-fluid mb-2" src="assets/images/menu-icon/menu-icon-01.png" alt="" />
+                                <p class="mb-0">Home</p>
+                            </a>
+                        </li>
+                        <li class="col text-center">
+                            <a class="text-decoration-none d-flex d-lg-block align-items-center" href="about.html">
+                                <img class="img-fluid mb-2" src="assets/images/menu-icon/menu-icon-02.png" alt="" />
+                                <p class="mb-0">Our Story</p>
+                            </a>
+                        </li>
+                        <li class="col text-center">
+                            <a class="text-decoration-none d-flex d-lg-block align-items-center"
+                                href="products.html">
+                                <img class="img-fluid mb-2" src="assets/images/menu-icon/menu-icon-03.png" alt="" />
+                                <p class="mb-0">Products</p>
+                            </a>
+                        </li>
+                        <li class="col text-center">
+                            <a class="text-decoration-none d-flex d-lg-block align-items-center" href="quality-assurance.html">
+                                <img class="img-fluid mb-2" src="assets/images/menu-icon/menu-icon-04.png" alt="" />
+                                <p class="mb-0">Quality Assurance</p>
+                            </a>
+                        </li>
+                        <li class="col text-center">
+                            <a class="text-decoration-none d-flex d-lg-block align-items-center"
+                                href="trading.html">
+                                <img class="img-fluid mb-2" src="assets/images/menu-icon/menu-icon-11.png" alt="" />
+                                <p class="mb-0">Trading</p>
+                            </a>
+                        </li>
+                        <li class="col text-center">
+                            <a class="text-decoration-none d-flex d-lg-block align-items-center"
+                                href="coming-soon.html">
+                                <img class="img-fluid mb-1" src="assets/images/menu-icon/menu-icon-06.png" alt="" />
+                                <p class="mb-0">Our Presence</p>
+                            </a>
+                        </li>
+                        <li class="col text-center">
+                            <a class="text-decoration-none d-flex d-lg-block align-items-center" href="coming-soon.html">
+                                <img class="img-fluid mb-2" src="assets/images/menu-icon/menu-icon-10.png" alt="" />
+                                <p class="mb-0">CSR</p>
+                            </a>
+                        </li>
+                        <li class="col text-center">
+                            <a class="text-decoration-none d-flex d-lg-block align-items-center" href="coming-soon.html">
+                                <img class="img-fluid mb-2" src="assets/images/menu-icon/menu-icon-07.png" alt="" />
+                                <p class="mb-0">Careers</p>
+                            </a>
+                        </li>
+                        <li class="col text-center">
+                            <a class="text-decoration-none d-flex d-lg-block align-items-center" href="coming-soon.html">
+                                <img class="img-fluid mb-2" src="assets/images/menu-icon/blog.png" alt="" />
+                                <p class="mb-0">Blog</p>
+                            </a>
+                        </li>
+                        <li class="col text-center">
+                            <a class="text-decoration-none d-flex d-lg-block align-items-center"
+                                href="contact.html">
+                                <img class="img-fluid mb-2" src="assets/images/menu-icon/menu-icon-08.png" alt="" />
+                                <p class="mb-0">Contact Us</p>
+                            </a>
+                        </li>
+                    </ul>
+                    <div>
+                        <div class="social text-end position-relative d-none d-md-block">
+                            <ul class="list-unstyled d-inline-flex mb-0">
+                                <li>
+                                    <a href="https://www.facebook.com/groupnirmal?mibextid=ZbWKwL" target="_blank">
+                                        <img class="img-fluid" src="assets/images/facebook.svg" alt="Facebook" />
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.instagram.com/group.nirmal?igsh=MWFxZ3BqZzgzamhibg==" target="_blank">
+                                        <img class="img-fluid" src="assets/images/instagram.svg" alt="Instagram" />
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.linkedin.com/company/nirmal-wires-private-limited/" target="_blank">
+                                        <img class="img-fluid" src="assets/images/linkedin.svg" alt="Linkedin" />
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <img class="img-fluid" src="assets/images/youtube.svg" alt="Youtube" />
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://x.com/NirmalWires" target="_blank">
+                                        <img class="img-fluid" src="assets/images/twitter.svg" alt="Twitter" />
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="download.html">
+                                        <img class="img-fluid" src="assets/images/download.svg" alt="Download" />
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- Header End -->
+    </section>
+
+
+    <!-- ------------------------------------------------------------------------------------------------------------------------ -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
@@ -637,6 +810,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"
         integrity="sha256-z6FznuNG1jo9PP3/jBjL6P3tvLMtSwiVAowZPOgo56U=" crossorigin="anonymous"></script>
     <script src="assets/js/main.js"></script>
+    <script src="assets/js/responsive.js"></script>
 </body>
 
 </html>
