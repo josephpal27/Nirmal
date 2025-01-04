@@ -2,6 +2,14 @@
     #index-web-view{
         display: none;
     }
+    body{
+        overflow: scroll !important;
+    }
+    /* Wp Icon */
+    .float {
+        width: 30px;
+        height: 30px;
+    }
 }
 @media screen and (min-width: 768px) {
     .mobile-view{
@@ -11,5 +19,158 @@
 
 
 @media screen and (max-width: 768px) {
-   
+    /* Header Starts */
+    .mobile-view nav{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0.4rem 1rem 0 0.2rem;
+        position: relative;
+    }
+    .mobile-view nav .nav-left{
+        width: 60%;
+        display: flex;
+        align-items: center;
+    }
+    .mobile-view nav .nav-left .icon-box:first-child{
+        margin-right: 0.6rem;
+        padding-right: 0.7rem;
+        border-right: 2px solid #d23737;
+    }
+    .mobile-view nav .nav-left img{
+        width: 60px;
+    }
+    .mobile-view nav .nav-right img{
+        width: 30px;
+    }
+    .mobile-view nav .nav-menu-options{
+        position: absolute;
+        top: 5rem;
+        width: 94%;
+        margin-left: 1.8%;
+        border-radius: 10px;
+        background-color: rgba(217, 217, 217, 0.947);
+        transition: all 0.3s ease;
+        overflow: hidden;
+        height: auto;
+        opacity: 1;
+    }
+    .mobile-view nav .nav-menu-options.hide{
+        height: 0;
+        opacity: 0;
+        margin-top: 0.3rem;
+    }
+    .mobile-view nav .nav-menu-options .nav-menu-row{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        padding: 1rem 0.5rem 0 0.5rem;
+    }
+    .mobile-view nav .nav-menu-options .nav-menu-row a{
+        width: 20%;
+        text-decoration: none;
+        color: #000;
+    }
+    .mobile-view nav .nav-menu-options .nav-menu-row .menu-box{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .mobile-view nav .nav-menu-options .nav-menu-row .menu-box img{
+        width: 17px;
+    }
+    .mobile-view nav .nav-menu-options .nav-menu-row .menu-box p{
+        font-size: 0.6rem;
+        text-align: center;
+        margin-top: 0.2rem;
+    }
+    /* Header Ends */
+
+    /* Banner Starts */
+    .mobile-view .banner{
+        height: auto;
+        background-color: rgba(43, 129, 184, 0.8);
+        overflow: hidden;
+    }
+    /* Banner Ends */
+
+    /* About Starts */
+    .mobile-view .about{
+        margin: 0;
+        overflow: hidden;
+    }
+    .mobile-view .about-content{
+        background-color: rgba(43, 129, 184, 0.8);
+        color: #fff;
+        padding: 0.7rem 0.5rem;
+    }
+    .mobile-view .about-content h2{
+        font-weight: 700;
+    }
+    .mobile-view .about video{
+        width: 100%;
+    }
+    .mobile-view .about .about-card{
+        width: 100%;
+        padding: 0.5rem 0;
+        text-align: center;
+    }
+    .mobile-view .about .about-card h5{
+        font-weight: 700;
+    }
+    .mobile-view .about .about-card p{
+        margin-bottom: 0;
+        font-weight: 500;
+    }
+    .mobile-view .about .about-card:nth-child(1),
+    .mobile-view .about .about-card:nth-child(3){
+        color: #366d96;
+        background-color: #fff;
+    }
+    .mobile-view .about .about-card:nth-child(2),
+    .mobile-view .about .about-card:nth-child(4){
+        color: #fff;
+        background-color: #366d96;
+    }
+    /* About Ends */
+
+    /* Chairman Start */
+    .mobile-view .chairman{
+        margin: 0;
+        margin-top: 0.5rem;
+        color: #fff;
+        width: 100%;
+        background-size: cover;
+        background-position: center;
+        overflow: hidden;
+    }
+    .mobile-view .chairman .chairman-img{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .mobile-view .chairman .chairman-img img{
+        width: 75%;
+        border: 7px solid #fff;
+    }
+    .mobile-view .chairman .chairman-text{
+        padding: 0 0.5rem;
+    }
+    .mobile-view .chairman .chairman-text h3{
+        font-weight: 700;
+        margin-top: 1rem;
+    }
+    .mobile-view .chairman .chairman-text p{
+        width: 100%;
+        text-align: start;
+    }
+    .mobile-view .chairman .chairman-text p:nth-child(3){
+        text-align: end;
+        margin-bottom: 0;
+    }
+    .mobile-view .chairman .chairman-text p:last-child{
+        font-weight: 600;
+        text-align: end;
+    }
+    /* Chairman End */
 }

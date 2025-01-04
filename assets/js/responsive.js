@@ -1,32 +1,20 @@
 
 // Navbar toggle functionality
-document.addEventListener("DOMContentLoaded", function () {
-    const navbarToggler = document.querySelector(".mobile-view .navbar-toggler");
-    const collapsedMenubar = document.querySelector(".mobile-view .collapsed-menubar");
-    const navbar = document.querySelector(".mobile-view .navbar");
+let navMenuBtn = document.querySelector('.mobile-view .nav-right img');
+let navList = document.querySelector('.mobile-view .nav-menu-options');
 
-    navbarToggler.addEventListener("click", function () {
-        collapsedMenubar.classList.toggle("active");
-        navbar.classList.toggle("navbar-active");
-    });
+navMenuBtn.addEventListener('click', (event) => {
+    event.stopPropagation(); // Prevent click from propagating to document
+    navList.classList.toggle('hide');
 });
 
-// --------------------------------------------------------------------------------------------------------------------- //
-
-// Functionality to close the menu when clicking outside of it
-document.addEventListener('DOMContentLoaded', function () {
-    document.addEventListener('click', function (event) {
-        var isClickInside = document.querySelector('.mobile-view .navbar').contains(event.target);
-
-        if (!isClickInside) {
-            // Hide the menu
-            var menu = document.querySelector('.mobile-view .collapsed-menubar');
-            if (menu.classList.contains('active')) {
-                menu.classList.remove('active');
-            }
-        }
-    });
+// Close menu when clicking outside of it
+document.addEventListener('click', (event) => {
+    if (!navList.classList.contains('hide') && !navList.contains(event.target) && event.target !== navMenuBtn) {
+        navList.classList.add('hide');
+    }
 });
+
 
 // --------------------------------------------------------------------------------------------------------------------- //
 
