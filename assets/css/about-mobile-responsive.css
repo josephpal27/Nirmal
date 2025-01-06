@@ -1,0 +1,101 @@
+@media screen and (max-width: 768px) {
+    .web-view{
+        display: none;
+    }
+    body{
+        overflow: scroll !important;
+    }
+    /* Wp Icon */
+    .float {
+        width: 30px;
+        height: 30px;
+        box-shadow: none;
+    }
+}
+@media screen and (min-width: 768px) {
+    .mobile-view{
+        display: none;
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+    /* Header Starts */
+    .mobile-view nav{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0.4rem 1rem 0 0.2rem;
+        position: relative;
+    }
+    .mobile-view nav .nav-left{
+        width: 60%;
+        display: flex;
+        align-items: center;
+    }
+    .mobile-view nav .nav-left .icon-box:first-child{
+        margin-right: 0.6rem;
+        padding-right: 0.7rem;
+        border-right: 2px solid #d23737;
+    }
+    .mobile-view nav .nav-left img{
+        width: 60px;
+    }
+    .mobile-view nav .nav-right img{
+        width: 30px;
+    }
+    .mobile-view nav .nav-menu-options{
+        position: absolute;
+        top: 5rem;
+        width: 94%;
+        margin-left: 1.8%;
+        border-radius: 10px;
+        background-color: rgba(217, 217, 217, 0.947);
+        transition: all 0.3s ease;
+        overflow: hidden;
+        height: auto;
+        opacity: 1;
+    }
+    .mobile-view nav .nav-menu-options.hide{
+        height: 0;
+        opacity: 0;
+        margin-top: 0.3rem;
+    }
+    .mobile-view nav .nav-menu-options .nav-menu-row{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        padding: 1rem 0.5rem 0 0.5rem;
+    }
+    .mobile-view nav .nav-menu-options .nav-menu-row a{
+        width: 20%;
+        text-decoration: none;
+        color: #000;
+    }
+    .mobile-view nav .nav-menu-options .nav-menu-row .menu-box{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .mobile-view nav .nav-menu-options .nav-menu-row .menu-box img{
+        width: 17px;
+    }
+    .mobile-view nav .nav-menu-options .nav-menu-row .menu-box p{
+        font-size: 0.6rem;
+        text-align: center;
+        margin-top: 0.2rem;
+    }
+    /* Header Ends */
+
+    /* Banner Start */
+    .mobile-view .story-banner{
+        width: 100%;
+        overflow: hidden;
+    }
+    .mobile-view .story-banner img{
+        width: 100%;
+    }
+    /* Banner End */
+
+   
+}

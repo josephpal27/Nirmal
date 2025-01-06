@@ -1,5 +1,5 @@
-@media screen and (max-width: 992px) {
-    #index-web-view{
+@media screen and (max-width: 768px) {
+    .web-view{
         display: none;
     }
     body{
@@ -12,14 +12,14 @@
         box-shadow: none;
     }
 }
-@media screen and (min-width: 992px) {
+@media screen and (min-width: 768px) {
     .mobile-view{
         display: none;
     }
 }
 
 
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 768px) {
     /* Header Starts */
     .mobile-view nav{
         display: flex;
