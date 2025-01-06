@@ -1,4 +1,4 @@
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 992px) {
     #index-web-view{
         display: none;
     }
@@ -9,16 +9,17 @@
     .float {
         width: 30px;
         height: 30px;
+        box-shadow: none;
     }
 }
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 992px) {
     .mobile-view{
         display: none;
     }
 }
 
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 992px) {
     /* Header Starts */
     .mobile-view nav{
         display: flex;
@@ -173,4 +174,89 @@
         text-align: end;
     }
     /* Chairman End */
+
+    /* Product Details Start */
+    .mobile-view .product-details{
+        background-image: url('../images/product-details-bg.jpg');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        overflow: hidden;
+    }
+    .mobile-view .product-details-card-row{
+        padding: 0.3rem 1rem;
+    }
+    .mobile-view .product-details-card-row .product-card{
+        border-radius: 5px;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        margin-bottom: 1.2rem;
+        overflow: hidden;
+    }
+    .mobile-view .product-details-card-row .product-card .card-img img{
+        width: 100%;
+    }
+    .mobile-view .product-details-card-row .product-card .card-desc{
+        background-color: #fff;
+        padding: 0.6rem;
+    }
+    .mobile-view .product-details-card-row .product-card .card-desc h5{
+        display: flex;
+        align-items: center;
+    }
+    .mobile-view .product-details-card-row .product-card .card-desc h5 img{
+        width: 18px;
+        margin-left: 9px;
+    }
+    /* Product Details End */
+
+    /* Media Start */
+    .mobile-view .media{
+        display: flex;
+        flex-direction: column;
+        align-items: center;    
+    }
+    .mobile-view .media h3{
+        font-weight: 600;
+        text-align: center;
+        margin-top: 2rem;
+        margin-bottom: 3rem;
+    }
+    .mobile-view .media-box{
+        margin-bottom: 1rem;
+    }
+    .mobile-view .media-box img{
+        border-radius: 8px;
+    }
+    /* Media End */
+
+    /* Footer Start */
+    .mobile-view footer {
+        padding: 2rem 1rem;
+        border-bottom: 1rem solid #366d96;
+        position: relative;
+        bottom: 0;
+      }
+    .mobile-view footer h4{
+        font-weight: 600;
+        font-size: 1.1rem;
+        margin-top: 1.3rem;
+      }
+    .mobile-view footer p{
+        margin: 0;
+        margin-bottom: 0.4rem;
+      }
+    .mobile-view footer a{
+        text-decoration: none;
+      }
+    .mobile-view footer ul{
+        list-style-type: none;
+        display: flex;
+        gap: 0.5rem;
+        margin: 0.5rem 0;
+        padding: 0;
+      }
+    .mobile-view footer ul img{
+        width: 25px;
+      }
+    /* Footer End */
 }
