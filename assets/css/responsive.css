@@ -120,6 +120,7 @@
     .mobile-view footer p{
         margin: 0;
         margin-bottom: 0.4rem;
+        font-size: 0.8rem;
       }
     .mobile-view footer a{
         text-decoration: none;

@@ -1,0 +1,107 @@
+@media screen and (max-width: 768px) {
+    /* Banner Start */
+    .mobile-view .banner{
+        margin-top: 6.5rem;
+        position: relative;
+    }
+    .mobile-view .banner h1{
+        position: absolute;
+        bottom: 0.1rem;
+        left: 0.5rem;
+        color: #fff;
+        font-size: 1.3rem;
+    }
+    /* Banner End */
+
+    /* Approval Start */
+    .mobile-view .approval{
+        margin: 0;
+        width: 100%;
+        padding: 1rem 0.5rem;
+    }   
+    .mobile-view .approval h2{
+        font-size: 1.3rem;
+        margin: 0;
+    }   
+    .mobile-view .approval .approval-icons-row{
+        margin: 0;
+        margin-top: 0.5rem;
+    }   
+    /* Approval End */
+
+    /* License Start */
+    .mobile-view .license{
+        overflow: hidden;
+        padding: 0 0.5rem;
+    }
+    .mobile-view .license h2{
+        text-align: center;
+        font-size: 1.2rem;
+        font-weight: 600;
+        margin-top: 0.9rem;
+    }
+    .mobile-view .license table {
+        font-size: 0.8rem;
+    }
+    .mobile-view .license thead th {
+        padding: 0.5rem 2.5rem;
+    }
+    .mobile-view .license tbody tr th {
+        width: 7%;
+    }
+    .mobile-view .license tbody tr th,
+    .mobile-view .license tbody tr td {
+        padding: 0.2rem 0.2rem;
+    }   
+    /* License End */
+
+    /* Policy Start */
+    .mobile-view .policy{
+        overflow: hidden;
+    }
+    .mobile-view .policy img{
+        width: 100%;
+        margin-top: 1rem;
+    }
+    .mobile-view .policy h1{
+        margin: 0.5rem 0 0 0.5rem;
+        font-size: 1.3rem;
+    }
+    .mobile-view .policy p{
+        margin: 0.5rem 0 0 0.5rem;
+    }
+    /* Policy End */
+
+    /* Four Cards Start */
+    .mobile-view .four-cards{
+        margin-top: 2rem;
+        padding: 0 0.5rem;
+    }
+    .mobile-view .four-cards p{
+        text-align: center;
+        font-weight: 500;
+    }
+    .mobile-view .four-cards .assurance-card{
+        width: 100%;
+    }
+    .mobile-view .four-cards .assurance-card img{
+        border-radius: 5px;
+    }
+    /* Four Cards End */
+
+    /* Accomplish Start */
+    .mobile-view .accomplish{
+        padding: 1rem 0;
+    }
+    .mobile-view .accomplish-content{
+        padding: 1rem 0.5rem;
+    }
+    .mobile-view .accomplish-content h3{
+        font-size: 1.2rem;
+        font-weight: 600;
+    }
+    .mobile-view .accomplish-content ul{
+        font-weight: 500;
+    }
+    /* Accomplish End */
+}
