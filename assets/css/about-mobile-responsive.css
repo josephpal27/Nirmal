@@ -48,7 +48,7 @@
         position: absolute;
         top: 5rem;
         width: 94%;
-        margin-left: 1.8%;
+        margin-left: 2%;
         border-radius: 10px;
         background-color: rgba(217, 217, 217, 0.947);
         transition: all 0.3s ease;
@@ -88,14 +88,234 @@
     /* Header Ends */
 
     /* Banner Start */
-    .mobile-view .story-banner{
+    .mobile-view .our-story-banner{
         width: 100%;
         overflow: hidden;
     }
-    .mobile-view .story-banner img{
+    .mobile-view .our-story-banner img{
         width: 100%;
+        margin-top: 6rem;
+    }
+    .mobile-view .our-story-content{
+        padding: 1rem 0.5rem;
+        background-color: rgba(43, 129, 184, 0.8);
+        color: #fff;
     }
     /* Banner End */
 
-   
+   /* Our Journey Start */
+    .mobile-view .journey{
+        background-image: url(../../assets/images/our-journey-bg.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        overflow: hidden;
+        padding: 1rem 0.5rem;
+    }
+    .mobile-view .journey h3{
+        text-align: center;
+        font-weight: 650;
+        color: #fff;
+    }
+    .mobile-view .journey .journey-container{
+        margin-top: 1rem;
+    }
+    .mobile-view .journey .journey-slide{
+        display: none;
+    }
+    .mobile-view .journey .journey-slide.active{
+        display: block;
+    }
+    .mobile-view .journey .journey-slide img{
+        width: 100%;
+    }
+    .mobile-view .journey .journey-slide h1,
+    .mobile-view .journey .journey-slide p{
+        text-align: end;
+        color: #fff;
+    }
+    .mobile-view .journey .journey-slide h1{
+        margin-top: 0.5rem;
+        margin-bottom: 0;
+        font-size: 2rem;
+    }
+    .mobile-view .journey .journey-slide p{
+        margin-bottom: 0;
+        margin-top: 0.2rem;
+    }
+    .mobile-view .journey .journey-btns{
+        margin-top: 1.5rem;
+        display: flex;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+        gap: 3%;
+    }
+    .mobile-view .journey .journey-btns button{
+        width: 22.65%;
+        margin-bottom: 0.8rem;
+        border: none;
+        background-color: transparent;
+        color: #fff;
+        font-weight: 600;
+        font-size: 1.1rem;
+    }
+    .mobile-view .journey .journey-btns button.active{
+        scale: 1.3;
+        font-weight: 700;
+    }
+   /* Our Journey End */
+
+   /* Brand Story Start */
+   .mobile-view .brand-story{
+    overflow: hidden;
+   }
+   .mobile-view .brand-story img{
+    width: 100%;
+   }
+   .mobile-view .brand-story h4{
+    font-weight: 600;
+    padding: 0.5rem 0 0.2rem 0.5rem;
+   }
+   .mobile-view .brand-story p{
+    padding-left: 0.5rem;
+   }
+   /* Brand Story End */
+
+   /* Chairman Start */
+   .mobile-view .chairman{
+    margin: 0;
+    margin-top: 0.5rem;
+    color: #fff;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    }
+    .mobile-view .chairman .chairman-img{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .mobile-view .chairman .chairman-img img{
+        width: 75%;
+        border: 7px solid #fff;
+    }
+    .mobile-view .chairman .chairman-text{
+        padding: 0 0.5rem;
+    }
+    .mobile-view .chairman .chairman-text h3{
+        font-weight: 700;
+        margin-top: 1rem;
+    }
+    .mobile-view .chairman .chairman-text p{
+        width: 100%;
+        text-align: start;
+    }
+    .mobile-view .chairman .chairman-text p:nth-child(6){
+        text-align: end;
+        margin-bottom: 0;
+    }
+    .mobile-view .chairman .chairman-text p:last-child{
+        font-weight: 600;
+        text-align: end;
+    }
+    /* Chairman End */
+
+    /* Vision Mission Start */
+    .mobile-view .vision{
+        background-image: url('../images/product-details-bg.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        overflow: hidden;
+    }
+    .mobile-view .vision-mission-box-row{
+        padding: 1rem 0.5rem 2rem 0.5rem;
+        margin-top: 4rem;
+    }
+    .mobile-view .vision-mission-box-row .vision-box{
+        position: relative;
+        background-color: rgba(43, 129, 184, 0.8);
+        color: #fff;
+        padding: 1.3rem 1rem;
+        border-radius: 5px;
+    }
+    .mobile-view .vision-mission-box-row .vision-box:first-child{
+        margin-bottom: 4rem;
+    }
+    .mobile-view .vision-mission-box-row .vision-box h3{
+        font-weight: 600;
+    }
+    .mobile-view .vision-mission-box-row .vision-box h5{
+        font-size: 1rem;
+    }
+    .mobile-view .vision-box .vision-mission-icon{
+        position: absolute;
+        top: -3rem;
+        left: 38%;
+        background-color: #d9d9d9;
+        padding: 1rem;
+        border: 8px solid #fff;
+        width: 6rem;
+        height: 6rem;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .mobile-view .vision-box .vision-mission-icon img{
+        width: 40px;
+    }
+    /* Vision Mission End */
+
+    /* Media Start */
+    .mobile-view .media{
+        display: flex;
+        flex-direction: column;
+        align-items: center;    
+    }
+    .mobile-view .media h3{
+        font-weight: 600;
+        text-align: center;
+        margin-top: 2rem;
+        margin-bottom: 3rem;
+    }
+    .mobile-view .media-box{
+        margin-bottom: 1rem;
+    }
+    .mobile-view .media-box img{
+        border-radius: 8px;
+    }
+    /* Media End */
+
+    /* Footer Start */
+    .mobile-view footer {
+        padding: 2rem 1rem;
+        border-bottom: 1rem solid #366d96;
+        position: relative;
+        bottom: 0;
+      }
+    .mobile-view footer h4{
+        font-weight: 600;
+        font-size: 1.1rem;
+        margin-top: 1.3rem;
+      }
+    .mobile-view footer p{
+        margin: 0;
+        margin-bottom: 0.4rem;
+      }
+    .mobile-view footer a{
+        text-decoration: none;
+      }
+    .mobile-view footer ul{
+        list-style-type: none;
+        display: flex;
+        gap: 0.5rem;
+        margin: 0.5rem 0;
+        padding: 0;
+      }
+    .mobile-view footer ul img{
+        width: 25px;
+      }
+    /* Footer End */
 }

@@ -18,3 +18,12 @@ document.addEventListener('click', (event) => {
 
 // --------------------------------------------------------------------------------------------------------------------- //
 
+// About Page Our Journey Functionality
+document.querySelectorAll('.mobile-view .journey-btns button').forEach((btn, index) => {
+    btn.addEventListener('click', () => {
+        document.querySelectorAll('.mobile-view .journey-slide').forEach(slide => slide.classList.remove('active'));
+        document.querySelectorAll('.mobile-view .journey-btns button').forEach(button => button.classList.remove('active'));
+        document.querySelectorAll('.mobile-view .journey-slide')[index].classList.add('active');
+        btn.classList.add('active');
+    });
+});
