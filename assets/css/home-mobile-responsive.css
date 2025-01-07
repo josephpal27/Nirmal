@@ -3,7 +3,7 @@
     /* Banner Starts */
     .mobile-view .banner{
         height: auto;
-        background-color: rgba(43, 129, 184, 0.8);
+        background-color: #366d96;
         overflow: hidden;
     }
     /* Banner Ends */
@@ -14,7 +14,7 @@
         overflow: hidden;
     }
     .mobile-view .about-content{
-        background-color: rgba(43, 129, 184, 0.8);
+        background-color: #366d96;
         color: #fff;
         padding: 0.7rem 0.5rem;
     }
