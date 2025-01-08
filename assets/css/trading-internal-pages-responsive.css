@@ -29,6 +29,149 @@
     /* Banner End */
 
     /* Product Features Start */
-    
+    .mobile-view .product-features{
+        width: 95%;
+        margin-left: 2.5%;
+        padding: 0.5rem 0;
+      }
+      .mobile-view .product-features h2{
+        font-size: 1.55rem;
+      }
+      .mobile-view .product-feature-card-row{
+        flex-direction: column;
+        margin-top: 1.5rem;
+        padding: 0;
+      }
+      .mobile-view .product-feature-card{
+        width: 100%;
+        margin-bottom: 0.5rem;
+      }
+      .mobile-view .product-feature-card:nth-child(2){
+        border-right: none;
+        border-left: none;
+        width: 100%;
+        padding: 0;
+      }
+      .mobile-view .product-feature-card .card-img{
+        height: 6rem;
+      }
+      .mobile-view .product-feature-card img{
+        width: 20%;
+      }
+      .mobile-view .product-feature-card h3{
+        font-size: 1.2rem;
+        margin-top: 0.3rem;
+        min-height: 0;
+      }
+      .mobile-view .product-feature-card p{
+        font-size: 0.85rem;
+        margin-top: 0.2rem;
+      }
     /* Product Features End */
+
+    /* Aluminium Ingot Applications Start */
+    .mobile-view .aluminium-ingots-apps{
+    width: 95%;
+    margin-left: 2.5%;
+    padding: 0.5rem 0;
+  }
+  .mobile-view .aluminium-ingots-apps h2{
+    font-size: 1.55rem;
+  }
+  .mobile-view .aluminium-ingots-apps .apps-row{
+    width: 100%;
+    margin-left: 0;
+    margin-top: 1.5rem;
+    padding: 0 0.5rem;
+  }
+  .mobile-view .aluminium-ingots-apps .apps-card{
+    width: 100%;
+    margin-bottom: 1.5rem;
+  }
+  .mobile-view .aluminium-ingots-apps .apps-card .apps-card-layer{
+    padding: 1.5rem 1rem;
+    display: flex;
+    align-items: center;
+  }
+  .mobile-view .aluminium-ingots-apps .apps-card .apps-card-layer p{
+    font-size: 0.9rem;
+  }
+  /* Aluminium Ingot Applications End */
+
+  /* Quality Assurance Start */
+  .mobile-view .ingot-quality{
+    width: 95%;
+    margin-left: 2.5%;
+    padding: 1.5rem 0;
+    overflow: hidden;
+  }
+  .mobile-view .ingot-quality h2{
+    font-size: 1.5rem;
+  }
+  .mobile-view .ingot-quality p{
+    font-size: 0.9rem;
+    max-width: 100%;
+    margin-left: 0;
+    margin-top: 1rem;
+  }
+  .mobile-view .ingot-quality-card-row{
+    flex-direction: column;
+    margin-top: 2rem;
+  }
+  .mobile-view .ingot-quality-card{
+    width: 100%;
+  }
+  .mobile-view .ingot-quality-card .card-img{
+    height: 6rem;
+  }
+  .mobile-view .ingot-quality-card img{
+    width: 18%;
+  }
+  .mobile-view .ingot-quality-card .card-desc{
+    min-height: 0;
+  }
+  .mobile-view .ingot-quality-card h3{
+    font-size: 1.1rem;
+    margin-top: 0.3rem;
+  }
+  .mobile-view .ingot-quality-card p{
+    max-width: 100%;
+    margin-left: 0;
+    font-size: 0.8rem;
+    margin-top: 0.2rem;
+  }
+  /* Quality Assurance End */
+
+  /* Why Choose Us Start */
+  .mobile-view .ingot-choose-us{
+    width: 95%;
+    margin-left: 2.5%;
+    padding: 1rem 0;
+  }
+  .mobile-view .ingot-choose-us h2{
+    font-size: 1.5rem;
+  }
+  .mobile-view .ingot-choose-us-card-row{
+    margin-top: 1rem;
+    flex-direction: column;
+    padding: 0;
+  }
+  .mobile-view .ingot-choose-us-card{
+    width: 100%;
+  }
+  .mobile-view .ingot-choose-us-card .card-img{
+    height: 5rem;
+  }
+  .mobile-view .ingot-choose-us-card .card-img img{
+    width: 18%;
+  }
+  .mobile-view .ingot-choose-us-card h3{
+    font-size: 1.1rem;
+    margin-top: 0.5rem;
+  }
+  .mobile-view .ingot-choose-us-card p{
+    font-size: 0.8rem;
+    margin-top: 0.4rem;
+  }
+  /* Why Choose Us End */
 }
