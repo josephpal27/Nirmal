@@ -1,0 +1,98 @@
+@media screen and (min-width: 768px) {
+    ::-webkit-scrollbar{
+        display: none;
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+    /* Banner Start */
+    .mobile-view .contact-banner{
+        width: 100%;
+        overflow: hidden;
+        margin-top: 6.5rem;
+    }
+    /* Banner End */
+
+    /* Contact Form Start */
+    .mobile-view .contact-form{
+        padding: 0.8rem 0.5rem;
+    }
+    .mobile-view .contact-form h4{
+        color: #366d96;
+        font-weight: 700;
+    }
+    .mobile-view .contact-form form{
+        margin-top: 0.5rem;
+    }
+    .mobile-view .contact-form form input,
+    .mobile-view .contact-form form textarea,
+    .mobile-view .contact-form form select,
+    .mobile-view .contact-form form button{
+        width: 100%;
+        padding: 0.4rem;
+        margin-bottom: 0.5rem;
+        outline: none;
+        border-radius: 2px;
+        border: 1px solid #969696;
+        font-size: 0.7rem !important;
+    }
+    .mobile-view .contact-form form input:focus,
+    .mobile-view .contact-form form textarea:focus,
+    .mobile-view .contact-form form select:focus{
+        border: 1px solid #366d96;
+    }
+    .mobile-view .contact-form form button{
+        background-color: #c42323;
+        color: #fff;
+        border: none;
+        font-weight: 500;
+    }
+    .mobile-view .contact-form .contact-map{
+        margin-top: 1rem;
+        width: 100%;
+        border-radius: 5px;
+        overflow: hidden;
+        height: 17rem !important;
+    }
+    /* Contact Form End */
+
+    /* Corporate Office Start */
+    .mobile-view .corporate-office,
+    .mobile-view .manufacturing-units{
+        padding: 1rem 0.5rem;
+    }
+    .mobile-view .corporate-office h1,
+    .mobile-view .manufacturing-units h1{
+        font-size: 1.3rem;
+        width: 100%;
+        border-bottom: 2px solid #b7b7b7;
+        padding-bottom: 0.3rem;
+        color: #2a2a2a;
+        font-weight: 550;
+    }
+    .mobile-view .corporate-office .details-box,
+    .mobile-view .manufacturing-units .details-box{
+        border: 1px dashed #366d96;
+        padding: 0.5rem;
+    }
+    .mobile-view .manufacturing-units .details-box{
+        margin-bottom: 1rem;
+    }
+    .mobile-view .corporate-office .details-box h5,
+    .mobile-view .manufacturing-units .details-box h5{
+        font-size: 1.05rem;
+        font-weight: 700;
+    }
+    .mobile-view .corporate-office .details-box p,
+    .mobile-view .manufacturing-units .details-box p{
+        margin-bottom: 0;
+        margin-top: 0.2rem;
+        font-size: 0.8rem;
+    }
+    .mobile-view .corporate-office .details-box a,
+    .mobile-view .manufacturing-units .details-box a{
+        font-size: 0.8rem;
+    }
+    /* Corporate Office End */
+}
