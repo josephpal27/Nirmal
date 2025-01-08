@@ -1,0 +1,134 @@
+@media screen and (max-width: 768px) {
+
+    /* Banner Start */
+    .mobile-view .trading-banner {
+        overflow: hidden;
+    }
+
+    .mobile-view .trading-banner img {
+        margin-top: 6.5rem;
+    }
+
+    .mobile-view .trading-banner .banner-img {
+        position: relative;
+    }
+
+    .mobile-view .trading-banner h1 {
+        position: absolute;
+        bottom: 0.3rem;
+        left: 0.5rem;
+        color: #fff;
+        font-weight: 700;
+        font-size: 2rem;
+    }
+
+    .mobile-view .trading-banner .banner-text {
+        padding: 0.5rem;
+        font-size: 0.85rem;
+        color: #000;
+    }
+
+    /* Banner End */
+
+    /* Trading Products Start */
+    .mobile-view .trading-products {
+        width: 95%;
+        height: auto;
+        margin: 0.5rem 2.5%;
+        padding: 1rem 0.5rem;
+    }
+
+    .mobile-view .trading-products h2 {
+        font-size: 1.5rem;
+    }
+
+    .mobile-view .trading-products-card-row {
+        flex-direction: column;
+        margin-top: 0.5rem;
+    }
+
+    .mobile-view .trading-products-card-row .trading-products-card {
+        width: 100%;
+        margin-bottom: 1rem;
+    }
+
+    .mobile-view .trading-products-card-row .trading-products-card img {
+        margin-left: -0.15rem;
+    }
+
+    .mobile-view .trading-products-card-row .trading-products-card-desc {
+        padding: 0 1.5rem 0.5rem 1.5rem;
+    }
+
+    .mobile-view .trading-products-card-row .trading-products-card-desc h3 {
+        font-size: 1.2rem;
+    }
+
+    .mobile-view .trading-products-card-row .trading-products-card-desc p {
+        font-size: 0.8rem;
+        margin-top: 0.5rem;
+    }
+
+    .mobile-view .trading-products-card-row .trading-products-card-desc button {
+        margin-top: 0;
+        font-size: 0.75rem;
+    }
+
+    /* Trading Products End */
+
+    /* Why Choose Us Start*/
+    .mobile-view .why-choose-us {
+        width: 95%;
+        margin-left: 2.5%;
+        padding: 1.3rem 0;
+    }
+
+    .mobile-view .why-choose-us h2 {
+        font-size: 1.4rem;
+    }
+
+    .mobile-view .choose-us-cards-row {
+        flex-direction: column;
+        margin-top: 1rem;
+    }
+
+    .mobile-view .choose-us-card {
+        width: 100%;
+    }
+
+    .mobile-view .choose-us-card .card-img {
+        min-height: 6rem;
+    }
+
+    .mobile-view .choose-us-card img {
+        width: 20%;
+    }
+
+    .mobile-view .choose-us-card h3 {
+        font-size: 1.1rem;
+        margin-top: 0;
+    }
+
+    .mobile-view .choose-us-card p {
+        font-size: 0.8rem;
+        margin-top: 0;
+    }
+    /* Why Choose Us Start*/
+
+    /* Partner With Us Start */
+    .mobile-view .partner-with-us{
+        height: auto;
+        padding-top: 1.5rem;
+        padding-bottom: 2rem;
+      }
+    .mobile-view .partner-with-us h2{
+        font-size: 1.4rem;
+      }
+    .mobile-view .partner-with-us p{
+        font-size: 0.85rem;
+        max-width: 95%;
+        margin-left: 2.5%;
+        margin-top: 1rem;
+      }
+      /* Partner With Us End */
+}
