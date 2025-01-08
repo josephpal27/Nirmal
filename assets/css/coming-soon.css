@@ -81,3 +81,48 @@ box-sizing: border-box;
     color: rgb(115, 115, 255);
     scale: 1.2;
 }
+
+@media screen and (max-width: 768px) {
+    .mobile-view{
+        overflow: hidden;
+    }
+    .mobile-view video{
+        position: relative;
+        height: 100vh;
+    }
+    .mobile-view .content{
+        position: absolute;
+        color: #fff;
+        top: 20rem;
+        left: 2.5%;
+        width: 95%;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-family: "Montserrat", sans-serif;
+    }
+    .mobile-view .content h3{
+        font-size: 1.1rem;
+        font-weight: 600;
+    }
+    .mobile-view .content p{
+        font-size: 0.9rem;
+    }
+    .mobile-view .content i{
+        margin-top: 0;
+    }
+    .mobile-view .content button{
+        font-size: 0.8rem;
+        margin-top: 1rem;
+        font-family: "Montserrat", sans-serif;
+        border: none;
+        background-color: #0073a8;
+        color: #fff;
+        padding: 0.3rem 0.8rem 0.3rem 0.8rem;
+        font-weight: 600;
+        border-radius: 4px;
+        box-shadow: rgba(255, 255, 255, 0.153) 0px 6px 12px -2px, rgba(255, 255, 255, 0.241) 0px 3px 7px -3px;
+        transition: all 0.2s ease;
+    }
+}
