@@ -69,6 +69,35 @@
       }
     /* Product Features End */
 
+    /* Aluminium Wire Ingots Features Start */
+      .mobile-view .six-product-feature-card-row{
+        margin-top: 1.5rem;
+        padding: 0;
+      }
+      .mobile-view .six-product-feature-card-row .product-feature-card:nth-child(1){
+        border-bottom: none;
+      }
+      .mobile-view .six-product-feature-card-row .product-feature-card:nth-child(2){
+        border-right: none;
+        border-left: none;
+        border-bottom: none;
+        width: 100%;
+      }
+      .mobile-view .six-product-feature-card-row .product-feature-card:nth-child(3){
+        border-bottom: none;
+      }
+      .mobile-view .six-product-feature-card-row .product-feature-card:nth-child(5){
+        border-right: none;
+        border-left: none;
+      }
+      .mobile-view .six-product-feature-card-row .product-feature-card:nth-child(4),
+      .mobile-view .six-product-feature-card-row .product-feature-card:nth-child(5),
+      .mobile-view .six-product-feature-card-row .product-feature-card:nth-child(6){
+        padding-top: 0;
+        padding-bottom: 0;
+      }
+    /* Aluminium Wire Ingots Features End */
+
     /* Aluminium Ingot Applications Start */
     .mobile-view .aluminium-ingots-apps{
     width: 95%;
@@ -97,6 +126,33 @@
     font-size: 0.9rem;
   }
   /* Aluminium Ingot Applications End */
+
+  /* Aluminium Wire Ingot Applications Start */
+  .mobile-view .aluminium-wire-ingots-apps p{
+    width: 100%;
+    margin-left: 0;
+    font-size: 0.9rem;
+  }
+  .mobile-view .five-apps-row{
+    margin-top: 2rem;
+    padding: 0 0.5rem;
+    gap: 0;
+  }
+  .mobile-view .five-apps-row .apps-card-outer{
+    width: 100%;
+    margin-bottom: 1.5rem;
+  }
+  .mobile-view .five-apps-row .apps-card-outer .apps-card .apps-card-layer{
+    padding: 0.5rem;
+  }
+  .mobile-view .five-apps-row .apps-card-outer .apps-card .apps-card-layer p{
+    font-size: 0.85rem;
+  }
+  .mobile-view .five-apps-row .apps-card-outer h3{
+    font-size: 1.1rem;
+    margin-top: -0.5rem;
+  }
+  /* Aluminium Wire Ingot Applications End */
 
   /* Quality Assurance Start */
   .mobile-view .ingot-quality{
