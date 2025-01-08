@@ -1,0 +1,35 @@
+@media screen and (max-width: 768px) {
+    /* Banner Start */
+    .mobile-view .banner{
+        margin-top: 6.5rem;
+    }
+    /* Banner End */
+
+    /* Download Start */
+    .mobile-view .download-container{
+        background-image: url('../images/download-bg.jpg');
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        padding: 1.5rem 0.5rem;
+    }
+    .mobile-view .download-container h3{
+        text-align: center;
+        font-weight: 700;
+        color: #194b71;
+        font-size: 1.5rem;
+    }
+    .mobile-view .download-container .pdf-box{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 1.7rem;
+    }
+    .mobile-view .download-container .pdf-box img{
+        width: 15%;
+    }
+    .mobile-view .download-container .pdf-box h5{
+        margin-top: 0.5rem;
+    }
+    /* Download End */
+}
