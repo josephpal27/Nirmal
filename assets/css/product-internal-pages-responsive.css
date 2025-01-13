@@ -1,0 +1,186 @@
+
+@media screen and (max-width: 768px) {
+    /* Banner Start */
+    .mobile-view .banner{
+        margin-top: 6.5rem;
+        position: relative;
+    }
+    .mobile-view .banner .banner-content{
+        position: absolute;
+        bottom: 0rem;
+        left: 0.5rem;
+    }
+    .mobile-view .banner .banner-content h2{
+        font-size: 1.3rem;
+    }
+    .mobile-view .banner-desc{
+        margin-top: 0.5rem;
+        padding: 0 0.5rem;
+    }
+    /* Banner End */
+
+    /* Features Start */
+    .mobile-view .features{
+        margin: 0;
+        padding: 0 0.5rem;
+    }
+    .mobile-view .features h1{
+        font-size: 1.5rem;
+        margin-top: 0.7rem;
+    }
+    .mobile-view .features .features-card-top-row{
+        flex-direction: column;
+      }
+    .mobile-view  .features .features-card-top-row .feature-card{
+        width: 100%;
+    }
+    .mobile-view .features .feature-card .feature-card-img{
+        height: 5rem;
+    }
+    .mobile-view .features .feature-card img{
+        width: 60px;
+    }
+    .mobile-view .features .feature-card .feature-card-body{
+        padding: 0;
+        height: auto;
+    }
+    .mobile-view .features .feature-card .feature-card-body h2{
+        font-size: 1.1rem;
+    }
+    .mobile-view .features .feature-card .feature-card-body p{
+        font-size: 0.8rem;
+        margin-top: 0.5rem;
+    }
+    .mobile-view .feature-card{
+        border-right: none !important;
+        border: none !important;
+    }
+    .mobile-view .features .feature-card .feature-card-body{
+        border: none !important;
+    }
+    .mobile-view .features .features-card-bottom-row{
+        flex-direction: column;
+    }
+    .mobile-view .features .features-card-bottom-row .feature-card{
+        width: 100%;
+        padding-top: 0;
+    }
+    .mobile-view .features .features-card-bottom-row .feature-card .feature-card-body{
+        padding: 0;
+    }
+    .mobile-view #feature-card-4 img{
+        width: 45px;
+      }
+    /* Features End */
+
+    /* Applications Start */
+    .mobile-view .apps{
+        padding: 1.5rem 0.5rem;
+    }
+    .mobile-view .apps h1{
+      font-size: 1.7rem;
+    }
+    .mobile-view .apps .apps-card-row{
+      gap: 0;
+      margin-top: 1rem;
+    }
+    .mobile-view .apps .apps-card-row .apps-card{
+      width: 100%;
+      height: auto;
+      margin-bottom: 1rem;
+    }
+    .mobile-view .apps .apps-card-row .apps-card .blue-layer h4{
+     font-size: 1rem;
+    }
+    .mobile-view .apps .apps-card-row .apps-card .blue-layer p{
+     text-align: justify;
+    }
+    /* Applications End */
+
+    /* Quality Start */
+    .mobile-view .quality{
+        padding: 0.5rem 0.5rem;
+    }
+    .mobile-view .quality h1{
+      font-size: 1.5rem;
+    }
+    .mobile-view .quality p{
+      font-size: 0.9rem;
+      width: 100%;
+      margin-left: 0;
+      margin-top: 0.5rem;
+    }
+    .mobile-view .quality .quality-card-row{
+      flex-direction: column;
+      margin-top: 0;
+    }
+    .mobile-view .quality .quality-card-row .quality-card{
+        width: 100%;
+    }
+    .mobile-view .quality .quality-card-row .quality-card .quality-card-img{
+      height: 5rem;
+    }
+    .mobile-view .quality .quality-card-row .quality-card img{
+      width: 48px;
+    }
+    .mobile-view .quality .quality-card-row #quality-card-4 img{
+      width: 35px;
+    }
+    .mobile-view .quality .quality-card-row .quality-card h2{
+      font-size: 1.1rem;
+    }
+    .mobile-view .quality .quality-card-row .quality-card p{
+      text-align: center;
+      font-size: 0.8rem;
+      width: 100%;
+      margin-left: 0;
+    }
+    .mobile-view .quality .center-line{
+      height: 0.25rem;
+      margin-top: 1rem;
+    }
+    /* Quality End */
+
+    /* After Sale Services Start */
+    .mobile-view .after-sale-container{
+      width: 100%;
+      margin-left: 0;
+      margin-top: 1.5rem;
+    }
+    .mobile-view .after-sale-container h1{
+      font-size: 1.5rem;
+    }
+    .mobile-view .after-sale-container p{
+      font-size: 0.9rem;
+    }
+    .mobile-view .after-sale-container .after-sale-card-row{
+      flex-direction: column;
+      margin-top: 2rem;
+      padding: 0 0.5rem;
+    }
+    .mobile-view .after-sale-container .after-sale-card-row .after-sale-card{
+        width: 100%;
+        padding: 0;
+    }
+    .mobile-view .after-sale-container .after-sale-card-row .after-sale-card img{
+      width: 50px;
+    }
+    .mobile-view .after-sale-container .after-sale-card-row #after-sale-card-2 img{
+      width: 35px;
+    }
+    .mobile-view .after-sale-container .after-sale-card-row .after-sale-card h2{
+      font-size: 1.1rem;
+      margin-top: 0.5rem;
+    }
+    .mobile-view .after-sale-container .after-sale-card-row .after-sale-card p{
+      font-size: 0.8rem;
+      text-align: center;
+    }
+    .mobile-view .after-sale-container #after-sale-foot-text{
+      font-size: 0.8rem;
+      width: 100%;
+      margin-left: 0;
+      display: none;
+    }
+    /* After Sale Services End */
+}
