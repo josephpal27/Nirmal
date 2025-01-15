@@ -1383,17 +1383,18 @@ footer .footer-imnner {
 }
 .features .feature-card .feature-card-body{
   text-align: center;
-  padding: 0 5rem 1rem 5rem;
+  /* padding: 0 5rem 1rem 5rem; */
+  padding: 0 0.5rem 1rem 0.5rem;
   height: 63.5%;
 }
 .features .feature-card .feature-card-body h2{
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   font-weight: 700;
   color: #194b71;
   text-transform: uppercase;
 }
 .features .feature-card .feature-card-body p{
-  font-size: 1rem;
+  font-size: 0.85rem;
   font-weight: 500;
   color: #000;
   margin-top: 1rem;
@@ -1518,12 +1519,12 @@ footer .footer-imnner {
  text-align: center;
  text-transform: uppercase;
  font-weight: 700;
- font-size: 1.2rem;
+ font-size: 1.1rem;
 }
 .apps .apps-card-row .apps-card .blue-layer p{
  text-align: justify;
  font-weight: 500;
- font-size: 0.8rem;
+ font-size: 0.7rem;
 }
 .apps .apps-download-btn{
   display: flex;
