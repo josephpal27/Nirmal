@@ -2135,8 +2135,11 @@ footer .footer-imnner {
   margin-top: 2rem;
   padding: 1rem;
 }
-.aluminium-ingots-apps .apps-card{
+.aluminium-ingots-apps .apps-card-outer{
   width: 40%;
+}
+.aluminium-ingots-apps .apps-card{
+  width: 100%;
   position: relative;
   margin-bottom: 2.5rem;
   border-radius: 5px;
@@ -2161,6 +2164,14 @@ footer .footer-imnner {
   color: #fff;
   font-weight: 500;
   font-size: 1rem;
+  text-align: center;
+}
+.aluminium-ingots-apps .apps-card-outer h3{
+  color: #1d5179;
+  font-weight: 700;
+  font-size: 1.4rem;
+  margin: 0;
+  margin-top: -1.2rem;
   text-align: center;
 }
 /* Quality Assurance */
@@ -2335,7 +2346,7 @@ footer .footer-imnner {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  margin-top: 2rem;
+  margin-top: 3rem;
   padding: 0 1rem;
   gap: 5%;
 }

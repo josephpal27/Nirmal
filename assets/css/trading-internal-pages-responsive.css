@@ -134,9 +134,12 @@
     margin-top: 1.5rem;
     padding: 0 0.5rem;
   }
-  .mobile-view .aluminium-ingots-apps .apps-card{
+  .mobile-view .aluminium-ingots-apps .apps-card-outer{
     width: 100%;
     margin-bottom: 1.5rem;
+  }
+  .mobile-view .aluminium-ingots-apps .apps-card{
+    width: 100%;
   }
   .mobile-view .aluminium-ingots-apps .apps-card .apps-card-layer{
     padding: 1.5rem 1rem;
@@ -145,6 +148,10 @@
   }
   .mobile-view .aluminium-ingots-apps .apps-card .apps-card-layer p{
     font-size: 0.9rem;
+  }
+  .mobile-view .aluminium-ingots-apps .apps-card-outer h3{
+    font-size: 1.1rem;
+    margin-top: -1rem;
   }
   /* Aluminium Ingot Applications End */
 
