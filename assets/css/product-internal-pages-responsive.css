@@ -152,6 +152,8 @@
     }
     .mobile-view .after-sale-container p{
       font-size: 0.9rem;
+      width: 97%;
+      margin-left: 1.5%;
     }
     .mobile-view .after-sale-container .after-sale-card-row{
       flex-direction: column;
