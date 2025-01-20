@@ -1,0 +1,119 @@
+
+@media screen and (max-width: 768px) {
+    /* Banner Start */
+    .mobile-view .banner{
+        margin-top: 6.5rem;
+    }
+    /* Banner End */
+
+    /* Top Text Start */
+    .mobile-view .top-text{
+        margin-top: 1rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        overflow: hidden;
+    }
+    .mobile-view .top-text h1{
+        text-align: center;
+        color: #000;
+        font-weight: 600;
+        font-size: 1.8rem;
+    }
+    .mobile-view .top-text button{
+        background-color: #1a4a6f;
+        color: #fff;
+        border: none;
+        font-weight: 500;
+        padding: 0.4rem 0.8rem;
+        font-size: 0.7rem;
+        margin-top: 0.4rem;
+        border-radius: 2px;
+    }
+    .mobile-view .top-text img{
+        margin-top: 0.8rem;
+    }
+    /* Top Text End */
+
+    /* Products By Type Buttons Row Start */
+    .mobile-view .products-by-type-btn-row,
+    .mobile-view .products-by-industry-btn-row{
+        margin-top: 1rem;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        padding: 0 0.6rem;
+    }
+    .mobile-view .products-by-type-btn-row button,
+    .mobile-view .products-by-industry-btn-row button{
+        width: 48.5%;
+        border: none;
+        background-color: #d9d9d9;
+        color: #1a4a6f;
+        font-weight: 550;
+        padding: 0.4rem 0;
+        font-size: 0.75rem;
+        border-radius: 2px;
+        margin-bottom: 0.6rem;
+    }
+    .mobile-view .products-by-type-btn-row button.active,
+    .mobile-view .products-by-industry-btn-row button.active{
+        text-decoration: underline;
+        font-weight: 700;
+    }
+    /* Products By Type Buttons Row End */
+
+    /* Product By Type Product Boxes Start */
+    .mobile-view .product-box{
+        padding: 1rem 0.6rem;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        opacity: 1;
+        visibility: visible;
+        transition: all 0.2s ease-in-out;
+    }
+    .mobile-view .product-box.hide{
+        opacity: 0;
+        visibility: hidden;
+        display: none;
+    }
+    .mobile-view .product-box .product-card{
+        width: 48%;
+        margin-bottom: 2rem;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        border-radius: 5px;
+        overflow: hidden;
+    }
+    .mobile-view .product-box .product-card .card-body{
+        padding: 0;
+    }
+    .mobile-view .product-box .product-card h3{
+        font-size: 0.85rem;
+        font-weight: 650;
+        text-align: center;
+        margin-top: 0.7rem;
+        color: #1a4a6f;
+    }
+    .mobile-view .product-box .product-card .card-footer{
+        padding: 0;
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .mobile-view .product-box .product-card a{
+        font-size: 0.6rem;
+        margin: 0.5rem 0;
+        background-color: #1a4a6f;
+        color: #fff;
+        padding: 2px 7px;
+    }
+    /* Product By Type Product Boxes End */
+
+    /* Product By Industry Start */
+    .mobile-view .industry-text{
+        margin-top: -1rem;
+    }
+    /* Product By Industry End */
+}
