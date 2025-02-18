@@ -2425,3 +2425,18 @@ footer .footer-imnner {
   width: 25%;
 }
 /* Zinc Ingots Page Styling Ends Here */
+
+/* Emailer Page Styling Starts Here */
+.emailer-banner{
+  margin-top: 8rem;
+}
+#emailer-web footer{
+  margin-top: -2.8rem !important;
+}
+
+@media screen and (max-width: 767px) {
+  .emailer-banner{
+    margin-bottom: 1.5rem;
+  }
+}
+/* Emailer Page Styling Ends Here */
