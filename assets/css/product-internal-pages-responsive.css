@@ -97,6 +97,41 @@
     }
     /* Applications End */
 
+    /* Vineyard Support System Start */
+    .vineyard-support-system{
+      padding: 1.2rem 0.5rem;
+    }
+    .vineyard-support-system h1{
+      font-size: 1.5rem;
+    }
+    .vineyard-support-system p{
+      font-size: 0.9rem;
+      width: 100%;
+      margin-left: 0;
+      margin-top: 0.5rem;
+    }
+    .vineyard-support-system .support-card-row{
+      width: 100%;
+      margin: 2rem auto 0.5rem auto;
+      flex-direction: column;
+    }
+    .vineyard-support-system .support-card-row .support-card{
+      width: 100%;
+      border-radius: 15px;
+      margin-bottom: 1rem;
+    }
+    .vineyard-support-system .support-card-row .support-card .support-card-layer{
+      padding: 1rem 0.7rem;
+    }
+    .vineyard-support-system .support-card-row .support-card .support-card-layer h4{
+      font-size: 1.1rem;
+    }
+    .vineyard-support-system .support-card-row .support-card .support-card-layer p{
+      font-size: 0.78rem;
+      margin-top: 0.5rem;
+    }
+    /* Vineyard Support System End */
+
     /* Quality Start */
     .mobile-view .quality{
         padding: 0.5rem 0.5rem;

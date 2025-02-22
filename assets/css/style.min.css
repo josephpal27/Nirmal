@@ -1542,6 +1542,64 @@ footer .footer-imnner {
 .apps .apps-download-btn button:hover{
   background-color: #0c324f;
 }
+
+/* Niznal Support System */
+.vineyard-support-system{
+  padding: 3.5rem 0;
+}
+.vineyard-support-system h1{
+  font-size: 2.5rem;
+  text-align: center;
+  color: #366d96;
+  text-transform: uppercase;
+}
+.vineyard-support-system p{
+  font-size: 1.1rem;
+  text-align: justify;
+  color: #000;
+  width: 90%;
+  margin-left: 5%;
+  margin-top: 1rem;
+}
+.vineyard-support-system .support-card-row{
+  width: 82%;
+  margin: 4.5rem auto;
+  display: flex;
+  justify-content: space-between;
+}
+.vineyard-support-system .support-card-row .support-card{
+  width: 47%;
+  border-radius: 15px;
+  overflow: hidden;
+  position: relative;
+}
+.vineyard-support-system .support-card-row .support-card img{
+  width: 100%;
+}
+.vineyard-support-system .support-card-row .support-card .support-card-layer{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  bottom: -100%;
+  background-color: #042741d0;
+  padding: 1.8rem 1rem;
+  transition: all 0.3s ease-in-out;
+}
+.vineyard-support-system .support-card-row .support-card .support-card-layer h4{
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 1.5rem;
+  color: #fff;
+}
+.vineyard-support-system .support-card-row .support-card .support-card-layer p{
+  color: #fff;
+  text-align: justify;
+  font-weight: 500;
+  font-size: 1rem;
+  margin-top: 1.3rem;
+}
+
 /* Quality */
 .quality{
   padding: 2.5rem 0;
